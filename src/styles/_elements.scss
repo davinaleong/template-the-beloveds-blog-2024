@@ -21,11 +21,21 @@ em {
 }
 
 code {
-  font-family: font-family("secondary");
+  font-family: var(--ff-monospace);
 }
 
 small {
   font-size: 80%;
+}
+
+sup {
+  font-size: 80%;
+  vertical-align: top;
+}
+
+sub {
+  font-size: 80%;
+  vertical-align: bottom;
 }
 
 /// Links
@@ -43,7 +53,7 @@ a {
     text-decoration: var(--a-hover-td);
   }
 
-  @each $key, $value in $colors {
+  @each $key, $value in $colours {
     &.link-#{$key} {
       --a-clr: var(--clr-#{$key}-500);
       --a-hover-clr: var(--clr-#{$key}-700);
@@ -79,7 +89,7 @@ section,
     }
   }
 
-  @each $key, $value in $colors {
+  @each $key, $value in $colours {
     &-#{$key} {
       --section-clr: var(--clr-#{$key}-700);
       --section-heading-clr: var(--clr-#{$key}-400);
@@ -246,7 +256,7 @@ table,
     }
   }
 
-  @each $key, $value in $colors {
+  @each $key, $value in $colours {
     &-#{$key} {
       --table-bg-clr: var(--clr-#{$key}-50);
       --table-bg-clr-alt: var(--clr-#{$key}-100);

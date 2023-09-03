@@ -30,28 +30,27 @@
   min-height: 100%;
 }
 
-/// Helpers - Foreground Colors
-@each $key, $value in $colors {
+/// Helpers - Colours
+@each $key, $value in $colours {
   @each $tint-key, $tint-value in $value {
     .text-#{$key}-#{$tint-key} {
       color: var(--clr-#{$key}-#{$tint-key});
       fill: var(--clr-#{$key}-#{$tint-key});
     }
-  }
-}
 
-/// Helpers - Background Colors
-@each $key, $value in $colors {
-  @each $tint-key, $tint-value in $value {
     .bg-#{$key}-#{$tint-key} {
       background-color: var(--clr-#{$key}-#{$tint-key});
     }
-  }
-}
 
-/// Helpers - Border Colors
-@each $key, $value in $colors {
-  @each $tint-key, $tint-value in $value {
+    .fill-#{$key}-#{$tint-key} {
+      fill: var(--clr-#{$key}-#{$tint-key});
+    }
+
+    .outline-#{$key}-#{$tint-key} {
+      outline: thin solid var(--clr-#{$key}-#{$tint-key});
+    }
+
+    /// Helpers - Border colours
     @each $direction-key, $direction-value in $border-directions {
       @each $style-key, $style-value in $border-styles {
         @each $weight-key, $weight-value in $border-f-weights {
@@ -98,15 +97,6 @@
           }
         }
       }
-    }
-  }
-}
-
-/// Helpers - Outline Colors
-@each $key, $value in $colors {
-  @each $tint-key, $tint-value in $value {
-    .outline-#{$key}-#{$tint-key} {
-      outline: thin solid var(--clr-#{$key}-#{$tint-key});
     }
   }
 }
@@ -209,19 +199,19 @@
   @each $weight-key, $weight-value in $fixed-spacers {
     @if ($key != "all") {
       .m-f-#{$value}-#{$weight-key} {
-        @include margin($key, $weight-value);
+        @include margin($key, "var(--size-f-#{weight-key})");
       }
 
       .p-f-#{$value}-#{$weight-key} {
-        @include padding($key, $weight-value);
+        @include padding($key, "var(--size-f-#{weight-key})");
       }
     } @else {
       .m-f-#{$weight-key} {
-        @include margin($key, $weight-value);
+        @include margin($key, "var(--size-f-#{weight-key})");
       }
 
       .p-f-#{$weight-key} {
-        @include padding($key, $weight-value);
+        @include padding($key, "var(--size-f-#{weight-key})");
       }
     }
   }
@@ -229,19 +219,19 @@
   @each $weight-key, $weight-value in $variable-spacers {
     @if ($key != "all") {
       .m-v-#{$value}-#{$weight-key} {
-        @include margin($key, $weight-value);
+        @include margin($key, "var(--size-v-#{weight-key})");
       }
 
       .p-v-#{$value}-#{$weight-key} {
-        @include padding($key, $weight-value);
+        @include padding($key, "var(--size-v-#{weight-key})");
       }
     } @else {
       .m-v-#{$weight-key} {
-        @include margin($key, $weight-value);
+        @include margin($key, "var(--size-v-#{weight-key})");
       }
 
       .p-v-#{$weight-key} {
-        @include padding($key, $weight-value);
+        @include padding($key, "var(--size-v-#{weight-key})");
       }
     }
   }

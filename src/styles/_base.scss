@@ -1,7 +1,7 @@
 /// Base
 :root {
-  /* Colors */
-  @each $key, $value in $colors {
+  /* colours */
+  @each $key, $value in $colours {
     @each $tint-key, $tint-value in $value {
       --clr-#{$key}-#{$tint-key}: #{$tint-value};
     }

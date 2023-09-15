@@ -1,527 +1,830 @@
 /// Maps
 
-/// Colors
-/// Colours - Cream
-$clr-cream-50: hsl(39, 54%, 91%);
-$clr-cream-100: hsl(39, 54%, 81%);
-$clr-cream-200: hsl(39, 54%, 71%);
-$clr-cream-300: hsl(39, 54%, 61%);
-$clr-cream-400: hsl(39, 54%, 51%);
-$clr-cream-500: hsl(39, 54%, 41%);
-$clr-cream-600: hsl(39, 54%, 31%);
-$clr-cream-700: hsl(39, 54%, 21%);
-$clr-cream-800: hsl(39, 54%, 11%);
-$clr-cream-900: hsl(39, 54%, 1%);
-
-$clr-creams: (
-  "50": $clr-cream-50,
-  "100": $clr-cream-100,
-  "200": $clr-cream-200,
-  "300": $clr-cream-300,
-  "400": $clr-cream-400,
-  "500": $clr-cream-500,
-  "600": $clr-cream-600,
-  "700": $clr-cream-700,
-  "800": $clr-cream-800,
-  "900": $clr-cream-900,
+/// Maps - Colours
+$map-slate: (
+  "0": $colour-slate-0,
+  "100": $colour-slate-100,
+  "200": $colour-slate-200,
+  "300": $colour-slate-300,
+  "400": $colour-slate-400,
+  "500": $colour-slate-500,
+  "600": $colour-slate-600,
+  "700": $colour-slate-700,
+  "800": $colour-slate-800,
+  "900": $colour-slate-900,
+  "1000": $colour-slate-1000,
 );
 
-/// Colours - Tans
-$clr-tan-50: hsl(39, 32%, 91%);
-$clr-tan-100: hsl(39, 32%, 81%);
-$clr-tan-200: hsl(39, 32%, 71%);
-$clr-tan-300: hsl(38, 10%, 63%);
-$clr-tan-400: hsl(38, 10%, 53%);
-$clr-tan-500: hsl(38, 10%, 43%);
-$clr-tan-600: hsl(38, 10%, 33%);
-$clr-tan-700: hsl(38, 10%, 23%);
-$clr-tan-800: hsl(38, 10%, 13%);
-$clr-tan-900: hsl(38, 10%, 3%);
-
-$clr-tans: (
-  "50": $clr-tan-50,
-  "100": $clr-tan-100,
-  "200": $clr-tan-200,
-  "300": $clr-tan-300,
-  "400": $clr-tan-400,
-  "500": $clr-tan-500,
-  "600": $clr-tan-600,
-  "700": $clr-tan-700,
-  "800": $clr-tan-800,
-  "900": $clr-tan-900,
+$map-gray: (
+  "0": $colour-gray-0,
+  "100": $colour-gray-100,
+  "200": $colour-gray-200,
+  "300": $colour-gray-300,
+  "400": $colour-gray-400,
+  "500": $colour-gray-500,
+  "600": $colour-gray-600,
+  "700": $colour-gray-700,
+  "800": $colour-gray-800,
+  "900": $colour-gray-900,
+  "1000": $colour-gray-1000,
 );
 
-/// Colours - Greens
-$clr-green-50: hsl(59, 25%, 94%);
-$clr-green-100: hsl(59, 25%, 84%);
-$clr-green-200: hsl(59, 25%, 74%);
-$clr-green-300: hsl(59, 25%, 64%);
-$clr-green-400: hsl(59, 25%, 54%);
-$clr-green-500: hsl(59, 25%, 44%);
-$clr-green-600: hsl(59, 25%, 34%);
-$clr-green-700: hsl(59, 25%, 24%);
-$clr-green-800: hsl(59, 25%, 14%);
-$clr-green-900: hsl(59, 25%, 04%);
-
-$clr-greens: (
-  "50": $clr-green-50,
-  "100": $clr-green-100,
-  "200": $clr-green-200,
-  "300": $clr-green-300,
-  "400": $clr-green-400,
-  "500": $clr-green-500,
-  "600": $clr-green-600,
-  "700": $clr-green-700,
-  "800": $clr-green-800,
-  "900": $clr-green-900,
+$map-zinc: (
+  "0": $colour-zinc-0,
+  "100": $colour-zinc-100,
+  "200": $colour-zinc-200,
+  "300": $colour-zinc-300,
+  "400": $colour-zinc-400,
+  "500": $colour-zinc-500,
+  "600": $colour-zinc-600,
+  "700": $colour-zinc-700,
+  "800": $colour-zinc-800,
+  "900": $colour-zinc-900,
+  "1000": $colour-zinc-1000,
 );
 
-/// Colours - Browns
-$clr-brown-50: hsl(30, 33%, 96%);
-$clr-brown-100: hsl(30, 33%, 86%);
-$clr-brown-200: hsl(30, 33%, 76%);
-$clr-brown-300: hsl(30, 33%, 66%);
-$clr-brown-400: hsl(30, 33%, 56%);
-$clr-brown-500: hsl(30, 33%, 46%);
-$clr-brown-600: hsl(30, 33%, 36%);
-$clr-brown-700: hsl(30, 33%, 26%);
-$clr-brown-800: hsl(30, 33%, 16%);
-$clr-brown-900: hsl(30, 33%, 6%);
-
-$clr-browns: (
-  "50": $clr-brown-50,
-  "100": $clr-brown-100,
-  "200": $clr-brown-200,
-  "300": $clr-brown-300,
-  "400": $clr-brown-400,
-  "500": $clr-brown-500,
-  "600": $clr-brown-600,
-  "700": $clr-brown-700,
-  "800": $clr-brown-800,
-  "900": $clr-brown-900,
+$map-neutral: (
+  "0": $colour-neutral-0,
+  "100": $colour-neutral-100,
+  "200": $colour-neutral-200,
+  "300": $colour-neutral-300,
+  "400": $colour-neutral-400,
+  "500": $colour-neutral-500,
+  "600": $colour-neutral-600,
+  "700": $colour-neutral-700,
+  "800": $colour-neutral-800,
+  "900": $colour-neutral-900,
+  "1000": $colour-neutral-1000,
 );
 
-/// Colours - Pinks
-$clr-pink-50: hsl(20, 67%, 94%);
-$clr-pink-100: hsl(20, 67%, 84%);
-$clr-pink-200: hsl(20, 67%, 74%);
-$clr-pink-300: hsl(20, 67%, 64%);
-$clr-pink-400: hsl(20, 67%, 54%);
-$clr-pink-500: hsl(20, 67%, 44%);
-$clr-pink-600: hsl(20, 67%, 34%);
-$clr-pink-700: hsl(20, 67%, 24%);
-$clr-pink-800: hsl(20, 67%, 14%);
-$clr-pink-900: hsl(20, 67%, 4%);
-
-$clr-pinks: (
-  "50": $clr-pink-50,
-  "100": $clr-pink-100,
-  "200": $clr-pink-200,
-  "300": $clr-pink-300,
-  "400": $clr-pink-400,
-  "500": $clr-pink-500,
-  "600": $clr-pink-600,
-  "700": $clr-pink-700,
-  "800": $clr-pink-800,
-  "900": $clr-pink-900,
+$map-stone: (
+  "0": $colour-stone-0,
+  "100": $colour-stone-100,
+  "200": $colour-stone-200,
+  "300": $colour-stone-300,
+  "400": $colour-stone-400,
+  "500": $colour-stone-500,
+  "600": $colour-stone-600,
+  "700": $colour-stone-700,
+  "800": $colour-stone-800,
+  "900": $colour-stone-900,
+  "1000": $colour-stone-1000,
 );
 
-/// Colours - Blues
-$clr-blue-50: hsl(175, 13%, 98%);
-$clr-blue-100: hsl(175, 13%, 88%);
-$clr-blue-200: hsl(175, 13%, 78%);
-$clr-blue-300: hsl(175, 13%, 68%);
-$clr-blue-400: hsl(175, 13%, 58%);
-$clr-blue-500: hsl(175, 13%, 48%);
-$clr-blue-600: hsl(175, 13%, 38%);
-$clr-blue-700: hsl(175, 13%, 28%);
-$clr-blue-800: hsl(175, 13%, 18%);
-$clr-blue-900: hsl(175, 13%, 8%);
-
-$clr-blues: (
-  "50": $clr-blue-50,
-  "100": $clr-blue-100,
-  "200": $clr-blue-200,
-  "300": $clr-blue-300,
-  "400": $clr-blue-400,
-  "500": $clr-blue-500,
-  "600": $clr-blue-600,
-  "700": $clr-blue-700,
-  "800": $clr-blue-800,
-  "900": $clr-blue-900,
+$map-red: (
+  "0": $colour-red-0,
+  "100": $colour-red-100,
+  "200": $colour-red-200,
+  "300": $colour-red-300,
+  "400": $colour-red-400,
+  "500": $colour-red-500,
+  "600": $colour-red-600,
+  "700": $colour-red-700,
+  "800": $colour-red-800,
+  "900": $colour-red-900,
+  "1000": $colour-red-1000,
 );
 
-/// Colours - Grays
-$clr-gray-0: #ffffff;
-$clr-gray-50: #f1f1f1;
-$clr-gray-100: #e6e6e6;
-$clr-gray-200: #cccccc;
-$clr-gray-300: #b3b3b3;
-$clr-gray-400: #999999;
-$clr-gray-500: #808080;
-$clr-gray-600: #666666;
-$clr-gray-700: #4d4d4d;
-$clr-gray-800: #333333;
-$clr-gray-900: #202020;
-$clr-gray-1000: #000000;
-
-$clr-grays: (
-  "0": $clr-gray-0,
-  "50": $clr-gray-50,
-  "100": $clr-gray-100,
-  "200": $clr-gray-200,
-  "300": $clr-gray-300,
-  "400": $clr-gray-400,
-  "500": $clr-gray-500,
-  "600": $clr-gray-600,
-  "700": $clr-gray-700,
-  "800": $clr-gray-800,
-  "900": $clr-gray-900,
-  "1000": $clr-gray-1000,
+$map-orange: (
+  "0": $colour-orange-0,
+  "100": $colour-orange-100,
+  "200": $colour-orange-200,
+  "300": $colour-orange-300,
+  "400": $colour-orange-400,
+  "500": $colour-orange-500,
+  "600": $colour-orange-600,
+  "700": $colour-orange-700,
+  "800": $colour-orange-800,
+  "900": $colour-orange-900,
+  "1000": $colour-orange-1000,
 );
 
-/// Colours - Maps
-$colours: (
-  "cream": $clr-creams,
-  "tan": $clr-tans,
-  "green": $clr-greens,
-  "brown": $clr-browns,
-  "pink": $clr-pinks,
-  "blue": $clr-blues,
-  "gray": $clr-grays,
+$map-amber: (
+  "0": $colour-amber-0,
+  "100": $colour-amber-100,
+  "200": $colour-amber-200,
+  "300": $colour-amber-300,
+  "400": $colour-amber-400,
+  "500": $colour-amber-500,
+  "600": $colour-amber-600,
+  "700": $colour-amber-700,
+  "800": $colour-amber-800,
+  "900": $colour-amber-900,
+  "1000": $colour-amber-1000,
 );
 
-/// Fonts
-/// Fonts - Font Families
-$font-families: (
-  "primary": #{"Inter",
-  Arial,
-  sans-serif},
-  "secondary": #{"Playfair Display",
-  "Times New Roman",
-  serif},
-  "monospace": #{"Inconsolata",
-  "Courier New",
-  monospace},
+$map-yellow: (
+  "0": $colour-yellow-0,
+  "100": $colour-yellow-100,
+  "200": $colour-yellow-200,
+  "300": $colour-yellow-300,
+  "400": $colour-yellow-400,
+  "500": $colour-yellow-500,
+  "600": $colour-yellow-600,
+  "700": $colour-yellow-700,
+  "800": $colour-yellow-800,
+  "900": $colour-yellow-900,
+  "1000": $colour-yellow-1000,
 );
 
-/// Fonts - Font Sizes
-$font-sizes: (
-  // Step -4: 0
-  "0": 0,
-  // Step -3: 10.42px → 10.24px
-  "100": clamp(0.64rem, calc(0.66rem + -0.02vw), 0.65rem),
-  // Step -2: 12.50px → 12.80px
-  "200": clamp(0.78rem, calc(0.77rem + 0.03vw), 0.8rem),
-  // Step -1: 15.00px → 16.00px
-  "300": clamp(0.94rem, calc(0.92rem + 0.11vw), 1rem),
-  // Step 0: 18.00px → 20.00px
-  "400": clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem),
-  // Step 1: 21.60px → 25.00px
-  "500": clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem),
-  // Step 2: 25.92px → 31.25px
-  "600": clamp(1.62rem, calc(1.5rem + 0.58vw), 1.95rem),
-  // Step 3: 31.10px → 39.06px
-  "700": clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem),
-  // Step 4: 37.32px → 48.83px
-  "800": clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem),
-  // Step 5: 44.79px → 61.04px
-  "900": clamp(2.8rem, calc(2.45rem + 1.77vw), 3.82rem)
+$map-lime: (
+  "0": $colour-lime-0,
+  "100": $colour-lime-100,
+  "200": $colour-lime-200,
+  "300": $colour-lime-300,
+  "400": $colour-lime-400,
+  "500": $colour-lime-500,
+  "600": $colour-lime-600,
+  "700": $colour-lime-700,
+  "800": $colour-lime-800,
+  "900": $colour-lime-900,
+  "1000": $colour-lime-1000,
 );
 
-/// Fonts - Font Weights
-$font-weights: (
-  "100": 100,
-  "thin": 100,
-  "200": 200,
-  "extra-light": 200,
-  "300": 300,
-  "light": 300,
-  "400": 400,
-  "regular": 400,
-  "500": 500,
-  "medium": 500,
-  "600": 600,
-  "semibold": 600,
-  "700": 700,
-  "bold": 700,
-  "800": 800,
-  "extrabold": 800,
-  "900": 900,
-  "black": 900,
+$map-green: (
+  "0": $colour-green-0,
+  "100": $colour-green-100,
+  "200": $colour-green-200,
+  "300": $colour-green-300,
+  "400": $colour-green-400,
+  "500": $colour-green-500,
+  "600": $colour-green-600,
+  "700": $colour-green-700,
+  "800": $colour-green-800,
+  "900": $colour-green-900,
+  "1000": $colour-green-1000,
 );
 
-/// Fonts - Font Styles
-$font-styles: (
-  "normal": normal,
-  "italic": italic,
-  "oblique": italic,
+$map-emerald: (
+  "0": $colour-emerald-0,
+  "100": $colour-emerald-100,
+  "200": $colour-emerald-200,
+  "300": $colour-emerald-300,
+  "400": $colour-emerald-400,
+  "500": $colour-emerald-500,
+  "600": $colour-emerald-600,
+  "700": $colour-emerald-700,
+  "800": $colour-emerald-800,
+  "900": $colour-emerald-900,
+  "1000": $colour-emerald-1000,
 );
 
-/// Text
-/// Text - Text Decorations
-$text-decorations: (
-  "none": none,
-  "underline": underline,
-  "overline": overline,
-  "line-through": line-through,
+$map-teal: (
+  "0": $colour-teal-0,
+  "100": $colour-teal-100,
+  "200": $colour-teal-200,
+  "300": $colour-teal-300,
+  "400": $colour-teal-400,
+  "500": $colour-teal-500,
+  "600": $colour-teal-600,
+  "700": $colour-teal-700,
+  "800": $colour-teal-800,
+  "900": $colour-teal-900,
+  "1000": $colour-teal-1000,
 );
 
-/// Text - Text Alignments
-$text-aligns: (
-  "left": left,
-  "center": center,
-  "right": right,
+$map-cyan: (
+  "0": $colour-cyan-0,
+  "100": $colour-cyan-100,
+  "200": $colour-cyan-200,
+  "300": $colour-cyan-300,
+  "400": $colour-cyan-400,
+  "500": $colour-cyan-500,
+  "600": $colour-cyan-600,
+  "700": $colour-cyan-700,
+  "800": $colour-cyan-800,
+  "900": $colour-cyan-900,
+  "1000": $colour-cyan-1000,
 );
 
-/// Text - Text Transforms
-$text-transforms: (
-  "none": none,
-  "uppercase": uppercase,
-  "lowercase": lowercase,
-  "capitalize": capitalize,
+$map-sky: (
+  "0": $colour-sky-0,
+  "100": $colour-sky-100,
+  "200": $colour-sky-200,
+  "300": $colour-sky-300,
+  "400": $colour-sky-400,
+  "500": $colour-sky-500,
+  "600": $colour-sky-600,
+  "700": $colour-sky-700,
+  "800": $colour-sky-800,
+  "900": $colour-sky-900,
+  "1000": $colour-sky-1000,
 );
 
-/// Breakpoints
-$breakpoints: (
-  "xs": 0,
-  "sm": 578px,
-  "md": 768px,
-  "lg": 844px,
-  "xl": 992px,
-  "xxl": 1200px,
-  "xxxl": 1400px,
+$map-blue: (
+  "0": $colour-blue-0,
+  "100": $colour-blue-100,
+  "200": $colour-blue-200,
+  "300": $colour-blue-300,
+  "400": $colour-blue-400,
+  "500": $colour-blue-500,
+  "600": $colour-blue-600,
+  "700": $colour-blue-700,
+  "800": $colour-blue-800,
+  "900": $colour-blue-900,
+  "1000": $colour-blue-1000,
 );
 
-/// Spacers
-/// Spacers - Direction
-$spacer-directions: (
-  "all": "all",
-  "block": "block",
-  "inline": "inline",
-  "x": "x",
-  "y": "y",
-  "top": "t",
-  "right": "r",
-  "bottom": "b",
-  "left": "l",
+$map-indigo: (
+  "0": $colour-indigo-0,
+  "100": $colour-indigo-100,
+  "200": $colour-indigo-200,
+  "300": $colour-indigo-300,
+  "400": $colour-indigo-400,
+  "500": $colour-indigo-500,
+  "600": $colour-indigo-600,
+  "700": $colour-indigo-700,
+  "800": $colour-indigo-800,
+  "900": $colour-indigo-900,
+  "1000": $colour-indigo-1000,
 );
 
-/// Spacers - Fixed Spacer
-$fixed-spacers: (
-  // Space 0: 0
-  "0": 0,
-  // Space 50: 2px → 2px
-  "50": clamp(0.13rem, calc(0.13rem + 0vw), 0.13rem),
-  // Space 100: 5px → 5px
-  "100": clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem),
-  // Space 200: 9px → 10px
-  "200": clamp(0.56rem, calc(0.54rem + 0.11vw), 0.63rem),
-  // Space 300: 14px → 15px
-  "300": clamp(0.88rem, calc(0.85rem + 0.11vw), 0.94rem),
-  // Space 400: 18px → 20px
-  "400": clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem),
-  // Space 500: 27px → 30px
-  "500": clamp(1.69rem, calc(1.62rem + 0.33vw), 1.88rem),
-  // Space 600: 36px → 40px
-  "600": clamp(2.25rem, calc(2.16rem + 0.43vw), 2.5rem),
-  // Space 700: 54px → 60px
-  "700": clamp(3.38rem, calc(3.24rem + 0.65vw), 3.75rem),
-  // Space 800: 72px → 80px
-  "800": clamp(4.5rem, calc(4.33rem + 0.87vw), 5rem),
-  // Space 900: 108px → 120px
-  "900": clamp(6.75rem, calc(6.49rem + 1.3vw), 7.5rem),
-  // Space auto: auto
-  "auto": auto
+$map-violet: (
+  "0": $colour-violet-0,
+  "100": $colour-violet-100,
+  "200": $colour-violet-200,
+  "300": $colour-violet-300,
+  "400": $colour-violet-400,
+  "500": $colour-violet-500,
+  "600": $colour-violet-600,
+  "700": $colour-violet-700,
+  "800": $colour-violet-800,
+  "900": $colour-violet-900,
+  "1000": $colour-violet-1000,
 );
 
-/// Spacers - Variable Spacer
-$variable-spacers: (
-  // Space 0: 0
-  "0": 0,
-  // Space 50: 2px → 2px
-  "50": clamp(0.13em, calc(0.13em + 0vw), 0.13em),
-  // Space 100: 5px → 5px
-  "100": clamp(0.31em, calc(0.31em + 0vw), 0.31em),
-  // Space 200: 9px → 10px
-  "200": clamp(0.56em, calc(0.54em + 0.11vw), 0.63em),
-  // Space 300: 14px → 15px
-  "300": clamp(0.88em, calc(0.85em + 0.11vw), 0.94em),
-  // Space 400: 18px → 20px
-  "400": clamp(1.13em, calc(1.08em + 0.22vw), 1.25em),
-  // Space 500: 27px → 30px
-  "500": clamp(1.69em, calc(1.62em + 0.33vw), 1.88em),
-  // Space 600: 36px → 40px
-  "600": clamp(2.25em, calc(2.16em + 0.43vw), 2.5em),
-  // Space 700: 54px → 60px
-  "700": clamp(3.38em, calc(3.24em + 0.65vw), 3.75em),
-  // Space 800: 72px → 80px
-  "800": clamp(4.5em, calc(4.33em + 0.87vw), 5em),
-  // Space 900: 108px → 120px
-  "900": clamp(6.75em, calc(6.49em + 1.3vw), 7.5em),
-  // Space auto: auto
-  "auto": auto
+$map-purple: (
+  "0": $colour-purple-0,
+  "100": $colour-purple-100,
+  "200": $colour-purple-200,
+  "300": $colour-purple-300,
+  "400": $colour-purple-400,
+  "500": $colour-purple-500,
+  "600": $colour-purple-600,
+  "700": $colour-purple-700,
+  "800": $colour-purple-800,
+  "900": $colour-purple-900,
+  "1000": $colour-purple-1000,
 );
 
-/// Displays
-$displays: (
-  "none": none,
-  "inline": inline,
-  "block": block,
-  "inline-block": inline-block,
-  "flex": flex,
-  "inline-flex": inline-flex,
-  "grid": grid,
-  "inline-grid": inline-grid,
+$map-fuchsia: (
+  "0": $colour-fuchsia-0,
+  "100": $colour-fuchsia-100,
+  "200": $colour-fuchsia-200,
+  "300": $colour-fuchsia-300,
+  "400": $colour-fuchsia-400,
+  "500": $colour-fuchsia-500,
+  "600": $colour-fuchsia-600,
+  "700": $colour-fuchsia-700,
+  "800": $colour-fuchsia-800,
+  "900": $colour-fuchsia-900,
+  "1000": $colour-fuchsia-1000,
 );
 
-/// Flex/Grid
-/// Flex/Grid - Align Items
-$grid-flex-align-items: (
-  "normal": normal,
-  "start": start,
-  "center": center,
-  "end": end,
-  "stretch": stretch,
-  "baseline": baseline,
-  "flex-start": flex-start,
-  "flex-end": flex-end,
+$map-pink: (
+  "0": $colour-pink-0,
+  "100": $colour-pink-100,
+  "200": $colour-pink-200,
+  "300": $colour-pink-300,
+  "400": $colour-pink-400,
+  "500": $colour-pink-500,
+  "600": $colour-pink-600,
+  "700": $colour-pink-700,
+  "800": $colour-pink-800,
+  "900": $colour-pink-900,
+  "1000": $colour-pink-1000,
 );
 
-/// Flex/Grid - Justify Contents
-$flex-justify-contents: (
-  "center": center,
-  "space-between": space-between,
-  "space-around": space-around,
-  "space-evenly": space-evenly,
-  "flex-start": flex-start,
-  "flex-end": flex-end,
+$map-rose: (
+  "0": $colour-rose-0,
+  "100": $colour-rose-100,
+  "200": $colour-rose-200,
+  "300": $colour-rose-300,
+  "400": $colour-rose-400,
+  "500": $colour-rose-500,
+  "600": $colour-rose-600,
+  "700": $colour-rose-700,
+  "800": $colour-rose-800,
+  "900": $colour-rose-900,
+  "1000": $colour-rose-1000,
 );
 
-/// Flex/Grid - Justify Items
-$grid-justify-items: (
-  "inherit": inherit,
-  "normal": normal,
-  "stretch": stretch,
-  "start": start,
-  "left": left,
-  "center": center,
-  "right": right,
-  "end": end,
+$map-colour: (
+  "slate": $map-slate,
+  "gray": $map-gray,
+  "zinc": $map-zinc,
+  "neutral": $map-neutral,
+  "stone": $map-stone,
+  "red": $map-red,
+  "orange": $map-orange,
+  "amber": $map-amber,
+  "yellow": $map-yellow,
+  "lime": $map-lime,
+  "green": $map-green,
+  "emerald": $map-emerald,
+  "teal": $map-teal,
+  "cyan": $map-cyan,
+  "sky": $map-sky,
+  "blue": $map-blue,
+  "indigo": $map-indigo,
+  "violet": $map-violet,
+  "purple": $map-purple,
+  "fuchsia": $map-fuchsia,
+  "pink": $map-pink,
+  "rose": $map-rose,
 );
 
-/// Flex/Grid - Flex Wraps
-$flex-wraps: (
-  "nowrap": nowrap,
-  "wrap": wrap,
-  "reverse": wrap-reverse,
+$map-brand-colour: (
+  "html": $colour-html,
+  "css": $colour-css,
+  "bootstrap": $colour-bootstrap,
+  "sass": $colour-sass,
+  "javascript": $colour-javascript,
+  "react": $colour-react,
+  "astro": $colour-astro,
+  "php": $colour-php,
+  "laravel": $colour-laravel,
+  "sql": $colour-sql,
 );
 
-/// Box Shadows
-/// Box Shadows - Directions
-$box-shadow-directions: (
-  "top": "t",
-  "top-right": "tr",
-  "right": "r",
-  "bottom-right": "br",
-  "bottom": "b",
-  "bottom-left": "bl",
-  "left": "l",
-  "top-left": "tl",
+/// Maps - Fonts
+$map-font-family: (
+  "sans-serif": $font-family-sans-serif,
+  "serif": $font-family-serif,
+  "monospace": $font-family-monospace,
 );
 
-/// Box Shadows - Fixed Weights
-$box-shadow-f-weights: (
-  "50": 0.01rem,
-  "100": 0.03rem,
-  "200": 0.05rem,
-  "300": 0.1rem,
-  "400": 0.15rem,
-  "500": 0.2rem,
-  "600": 0.25rem,
-  "700": 0.5rem,
-  "800": 0.75rem,
-  "900": 1rem,
+$map-font-weight: (
+  "thin": $font-weight-thin,
+  "extra-light": $font-weight-extra-light,
+  "light": $font-weight-light,
+  "regular": $font-weight-regular,
+  "medium": $font-weight-medium,
+  "semi-bold": $font-weight-semi-bold,
+  "bold": $font-weight-bold,
+  "extra-bold": $font-weight-extra-bold,
+  "black": $font-weight-black,
 );
 
-/// Box Shadows - Variable Weights
-$box-shadow-v-weights: (
-  "50": 0.01em,
-  "100": 0.03em,
-  "200": 0.05em,
-  "300": 0.1em,
-  "400": 0.15em,
-  "500": 0.2em,
-  "600": 0.25em,
-  "700": 0.5em,
-  "800": 0.75em,
-  "900": 1em,
+$map-font-style: (
+  "normal": $font-style-normal,
+  "italic": $font-style-italic,
+  "oblique": $font-style-oblique,
 );
 
-/// Border Radius
-/// Border Radius - Directions
-$border-radius-directions: (
-  "all": "all",
-  "top": "t",
-  "top-right": "tr",
-  "right": "r",
-  "bottom-right": "br",
-  "bottom": "b",
-  "bottom-left": "bl",
-  "left": "l",
-  "top-left": "tl",
+$map-font-size: (
+  "0": $font-size-0,
+  "100": $font-size-100,
+  "200": $font-size-200,
+  "300": $font-size-300,
+  "400": $font-size-400,
+  "500": $font-size-500,
+  "600": $font-size-600,
+  "700": $font-size-700,
+  "800": $font-size-800,
+  "900": $font-size-900,
+  "1000": $font-size-1000,
 );
 
-/// Border
-/// Border - Directions
-$border-directions: (
-  "all": "all",
-  "x": "x",
-  "y": "y",
-  "top": "t",
-  "right": "r",
-  "bottom": "b",
-  "left": "l",
+$map-font: (
+  "font-family": $map-font-family,
+  "font-weight": $map-font-weight,
+  "font-style": $map-font-style,
+  "font-size": $map-font-size,
 );
 
-/// Border - Styles
-$border-styles: (
-  "none": none,
-  "hidden": hidden,
-  "dotted": dotted,
-  "dashed": dashed,
-  "solid": solid,
-  "double": double,
-  "groove": groove,
-  "ridge": ridge,
-  "inset": inset,
-  "outset": outset,
+/// Maps - Spacers
+/// Spacers - Fixed
+$map-spacer-fixed: (
+  "auto": $spacer-fixed-auto,
+  "0": $spacer-fixed-0,
+  "100": $spacer-fixed-100,
+  "200": $spacer-fixed-200,
+  "300": $spacer-fixed-300,
+  "400": $spacer-fixed-400,
+  "500": $spacer-fixed-500,
+  "600": $spacer-fixed-600,
+  "700": $spacer-fixed-700,
+  "800": $spacer-fixed-800,
+  "900": $spacer-fixed-900,
+  "1000": $spacer-fixed-1000,
 );
 
-/// Border - Fixed Weights
-$border-f-weights: (
-  "50": 0.01rem,
-  "100": 0.03rem,
-  "200": 0.05rem,
-  "300": 0.1rem,
-  "400": 0.15rem,
-  "500": 0.2rem,
-  "600": 0.25rem,
-  "700": 0.5rem,
-  "800": 0.75rem,
-  "900": 1rem,
+$map-spacer-fixed-one-up: (
+  "100-200": $spacer-fixed-one-up-100-200,
+  "200-300": $spacer-fixed-one-up-200-300,
+  "300-400": $spacer-fixed-one-up-300-400,
+  "400-500": $spacer-fixed-one-up-400-500,
+  "500-600": $spacer-fixed-one-up-500-600,
+  "600-700": $spacer-fixed-one-up-600-700,
+  "700-800": $spacer-fixed-one-up-700-800,
+  "800-900": $spacer-fixed-one-up-800-900,
+  "900-1000": $spacer-fixed-one-up-900-1000,
 );
 
-/// Border - Variable Weights
-$border-v-weights: (
-  "50": 0.01em,
-  "100": 0.03em,
-  "200": 0.05em,
-  "300": 0.1em,
-  "400": 0.15em,
-  "500": 0.2em,
-  "600": 0.25em,
-  "700": 0.5em,
-  "800": 0.75em,
-  "900": 1em,
+$map-spacer-variable: (
+  "auto": $spacer-variable-auto,
+  "0": $spacer-variable-0,
+  "100": $spacer-variable-100,
+  "200": $spacer-variable-200,
+  "300": $spacer-variable-300,
+  "400": $spacer-variable-400,
+  "500": $spacer-variable-500,
+  "600": $spacer-variable-600,
+  "700": $spacer-variable-700,
+  "800": $spacer-variable-800,
+  "900": $spacer-variable-900,
+  "1000": $spacer-variable-1000,
+);
+
+$map-spacer-variable-one-up: (
+  "100-200": $spacer-variable-one-up-100-200,
+  "200-300": $spacer-variable-one-up-200-300,
+  "300-400": $spacer-variable-one-up-300-400,
+  "400-500": $spacer-variable-one-up-400-500,
+  "500-600": $spacer-variable-one-up-500-600,
+  "600-700": $spacer-variable-one-up-600-700,
+  "700-800": $spacer-variable-one-up-700-800,
+  "800-900": $spacer-variable-one-up-800-900,
+  "900-1000": $spacer-variable-one-up-900-1000,
+);
+
+$map-spacer: (
+  "fixed": $map-spacer-fixed,
+  "fixed-one-up": $map-spacer-fixed-one-up,
+  "variable": $map-spacer-variable,
+  "variable-one-up": $map-spacer-variable-one-up,
+);
+
+/// Maps - Text
+$map-text-transform: (
+  "none": $text-transform-none,
+  "capitalize": $text-transform-capitalize,
+  "uppercase": $text-transform-none,
+  "lowercase": $text-transform-lowercase,
+);
+
+$map-text-decoration: (
+  "none": $text-decoration-none,
+  "underline": $text-decoration-underline,
+  "overline": $text-decoration-overline,
+  "line-through": $text-decoration-line-through,
+);
+
+$map-text-align: (
+  "left": $text-align-left,
+  "center": $text-align-center,
+  "right": $text-align-right,
+  "justify": $text-align-justify,
+  "start": $text-align-start,
+  "end": $text-align-end,
+);
+
+$map-text: (
+  "text-transform": $map-text-transform,
+  "text-decoration": $map-text-decoration,
+  "text-align": $map-text-align,
+);
+
+/// Maps - Line Heights
+$map-line-height-fixed: (
+  "normal": $line-height-fixed-normal,
+  "0": $line-height-fixed-0,
+  "100": $line-height-fixed-100,
+  "200": $line-height-fixed-200,
+  "300": $line-height-fixed-300,
+  "400": $line-height-fixed-400,
+  "500": $line-height-fixed-500,
+  "600": $line-height-fixed-600,
+  "700": $line-height-fixed-700,
+  "800": $line-height-fixed-800,
+  "900": $line-height-fixed-900,
+  "1000": $line-height-fixed-1000,
+);
+
+$map-line-height-variable: (
+  "normal": $line-height-variable-normal,
+  "0": $line-height-variable-0,
+  "100": $line-height-variable-100,
+  "200": $line-height-variable-200,
+  "300": $line-height-variable-300,
+  "400": $line-height-variable-400,
+  "500": $line-height-variable-500,
+  "600": $line-height-variable-600,
+  "700": $line-height-variable-700,
+  "800": $line-height-variable-800,
+  "900": $line-height-variable-900,
+  "1000": $line-height-variable-1000,
+);
+
+$map-line-height: (
+  "fixed": $map-line-height-fixed,
+  "variable": $map-line-height-variable,
+);
+
+/// Maps - Letter Spacings
+$map-letter-spacing-fixed: (
+  "normal": $letter-spacing-fixed-normal,
+  "0": $letter-spacing-fixed-0,
+  "100": $letter-spacing-fixed-100,
+  "200": $letter-spacing-fixed-200,
+  "300": $letter-spacing-fixed-300,
+  "400": $letter-spacing-fixed-400,
+  "500": $letter-spacing-fixed-500,
+  "600": $letter-spacing-fixed-600,
+  "700": $letter-spacing-fixed-700,
+  "800": $letter-spacing-fixed-800,
+  "900": $letter-spacing-fixed-900,
+  "1000": $letter-spacing-fixed-1000,
+);
+
+$map-letter-spacing-variable: (
+  "normal": $letter-spacing-variable-normal,
+  "0": $letter-spacing-variable-0,
+  "100": $letter-spacing-variable-100,
+  "200": $letter-spacing-variable-200,
+  "300": $letter-spacing-variable-300,
+  "400": $letter-spacing-variable-400,
+  "500": $letter-spacing-variable-500,
+  "600": $letter-spacing-variable-600,
+  "700": $letter-spacing-variable-700,
+  "800": $letter-spacing-variable-800,
+  "900": $letter-spacing-variable-900,
+  "1000": $letter-spacing-variable-1000,
+);
+
+$map-letter-spacing: (
+  "fixed": $map-letter-spacing-fixed,
+  "variable": $map-letter-spacing-variable,
+);
+
+/// Maps - Breakpoints
+$map-breakpoint: (
+  "0": $breakpoint-0,
+  "sm": $breakpoint-sm,
+  "md": $breakpoint-md,
+  "lg": $breakpoint-lg,
+  "xl": $breakpoint-xl,
+  "2xl": $breakpoint-2xl,
+);
+
+/// Maps - Positions
+$map-position: (
+  "static": $position-static,
+  "relative": $position-relative,
+  "absolute": $position-absolute,
+  "fixed": $position-fixed,
+  "sticky": $position-sticky,
+);
+
+/// Maps - Displays
+$map-display: (
+  "none": $display-none,
+  "inline": $display-inline,
+  "block": $display-block,
+  "inline-block": $display-inline-block,
+  "flex": $display-flex,
+  "inline-flex": $display-inline-flex,
+  "grid": $display-grid,
+  "inline-grid": $display-inline-grid,
+  "flow-root": $display-flow-root,
+  "table": $display-table,
+  "table-row": $display-table-row,
+  "list-item": $display-list-item,
+);
+
+/// Maps - Layers
+$map-layer: (
+  "n-2": $layer-n-2,
+  "n-1": $layer-n-1,
+  "0": $layer-0,
+  "1": $layer-1,
+  "2": $layer-2,
+  "3": $layer-3,
+  "4": $layer-4,
+  "5": $layer-5,
+  "6": $layer-6,
+  "7": $layer-7,
+);
+
+/// Maps - Flex
+$map-align-items: (
+  "normal": $align-items-normal,
+  "stretch": $align-items-stretch,
+  "center": $align-items-center,
+  "start": $align-items-start,
+  "end": $align-items-end,
+  "flex-start": $align-items-flex-start,
+  "flex-end": $align-items-flex-end,
+);
+
+$map-justify-content: (
+  "center": $justify-content-center,
+  "start": $justify-content-start,
+  "end": $justify-content-end,
+  "flex-start": $justify-content-flex-start,
+  "flex-end": $justify-content-flex-end,
+  "left": $justify-content-left,
+  "right": $justify-content-right,
+  "normal": $justify-content-normal,
+  "space-between": $justify-content-space-between,
+  "space-around": $justify-content-space-around,
+  "space-evenly": $justify-content-space-evenly,
+  "stretch": $justify-content-stretch,
+);
+
+$map-flex-direction: (
+  "row": $flex-direction-row,
+  "row-reverse": $flex-direction-row-reverse,
+  "column": $flex-direction-column,
+  "column-reverse": $flex-direction-column-reverse,
+);
+
+$map-flex-wrap: (
+  "nowrap": $flex-wrap-nowrap,
+  "wrap": $flex-wrap-wrap,
+);
+
+$map-flex: (
+  "align-items": $map-align-items,
+  "justify-content": $map-justify-content,
+  "flex-direction": $map-flex-direction,
+  "flex-wrap": $map-flex-wrap,
+);
+
+/// Maps - Grids
+$map-justify-items: (
+  "normal": $justify-items-normal,
+  "stretch": $justify-items-stretch,
+  "center": $justify-items-center,
+  "start": $justify-items-start,
+  "end": $justify-items-end,
+  "flex-start": $justify-items-flex-start,
+  "flex-end": $justify-items-flex-end,
+  "left": $justify-items-left,
+  "right": $justify-items-right,
+);
+
+$map-grid: (
+  "align-items": $map-align-items,
+  "justify-items": $map-justify-items,
+);
+
+/// Maps - Borders
+$map-border-width: (
+  "0": $border-width-0,
+  "100": $border-width-100,
+  "200": $border-width-200,
+  "300": $border-width-300,
+  "400": $border-width-400,
+  "500": $border-width-500,
+  "600": $border-width-600,
+  "700": $border-width-700,
+  "800": $border-width-800,
+  "900": $border-width-900,
+  "1000": $border-width-1000,
+);
+
+$map-border-style: (
+  "none": $border-style-none,
+  "hidden": $border-style-hidden,
+  "dotted": $border-style-dotted,
+  "dashed": $border-style-dashed,
+  "solid": $border-style-solid,
+  "double": $border-style-double,
+  "groove": $border-style-groove,
+  "ridge": $border-style-ridge,
+  "inset": $border-style-inset,
+  "outset": $border-style-outset,
+);
+
+$map-border: (
+  "border-width": $map-border-width,
+  "border-style": $map-border-style,
+);
+
+/// Maps - Outline
+$map-outline-width: (
+  "0": $outline-width-0,
+  "100": $outline-width-100,
+  "200": $outline-width-200,
+  "300": $outline-width-300,
+  "400": $outline-width-400,
+  "500": $outline-width-500,
+  "600": $outline-width-600,
+  "700": $outline-width-700,
+  "800": $outline-width-800,
+  "900": $outline-width-900,
+  "1000": $outline-width-1000,
+);
+
+$map-outline-style: (
+  "none": $outline-style-none,
+  "dotted": $outline-style-dotted,
+  "dashed": $outline-style-dashed,
+  "solid": $outline-style-solid,
+  "double": $outline-style-double,
+  "groove": $outline-style-groove,
+  "ridge": $outline-style-ridge,
+  "inset": $outline-style-inset,
+  "outset": $outline-style-outset,
+);
+
+$map-outline: (
+  "outline-width": $map-outline-width,
+  "outline-style": $map-outline-style,
+);
+
+/// Maps - Directions
+$map-direction: (
+  "all": $direction-all,
+  "block": $direction-block,
+  "block-start": $direction-block-start,
+  "block-end": $direction-block-end,
+  "inline": $direction-inline,
+  "inline-start": $direction-inline-start,
+  "inline-end": $direction-inline-end,
+  "y": $direction-y,
+  "top": $direction-top,
+  "bottom": $direction-bottom,
+  "x": $direction-x,
+  "left": $direction-left,
+  "right": $direction-right,
+);
+
+/// Maps - Box Shadows
+$map-box-shadow-fixed-width: (
+  "0": $box-shadow-fixed-width-0,
+  "100": $box-shadow-fixed-width-100,
+  "200": $box-shadow-fixed-width-200,
+  "300": $box-shadow-fixed-width-300,
+  "400": $box-shadow-fixed-width-400,
+  "500": $box-shadow-fixed-width-500,
+  "600": $box-shadow-fixed-width-600,
+  "700": $box-shadow-fixed-width-700,
+  "800": $box-shadow-fixed-width-800,
+  "900": $box-shadow-fixed-width-900,
+  "1000": $box-shadow-fixed-width-1000,
+);
+
+$map-box-shadow-variable-width: (
+  "0": $box-shadow-variable-width-0,
+  "100": $box-shadow-variable-width-100,
+  "200": $box-shadow-variable-width-200,
+  "300": $box-shadow-variable-width-300,
+  "400": $box-shadow-variable-width-400,
+  "500": $box-shadow-variable-width-500,
+  "600": $box-shadow-variable-width-600,
+  "700": $box-shadow-variable-width-700,
+  "800": $box-shadow-variable-width-800,
+  "900": $box-shadow-variable-width-900,
+  "1000": $box-shadow-variable-width-1000,
+);
+
+$map-box-shadow-direction: (
+  "top": $box-shadow-direction-top,
+  "right": $box-shadow-direction-right,
+  "bottom": $box-shadow-direction-bottom,
+  "left": $box-shadow-direction-left,
+);
+
+$map-box-shadow: (
+  "fixed-width": $map-box-shadow-fixed-width,
+  "variable-width": $map-box-shadow-variable-width,
+  "direction": $map-box-shadow-direction,
+);
+
+/// Maps - Border Radiuses
+$map-border-radius-direction: (
+  "top-left": $border-radius-direction-top-left,
+  "top-right": $border-radius-direction-top-right,
+  "bottom-left": $border-radius-direction-bottom-left,
+  "bottom-right": $border-radius-direction-bottom-right,
+);
+
+$map-border-radius: (
+  "direction": $map-border-radius-direction,
+);
+
+/// Maps - Object Fits
+$map-object-fit: (
+  "contain": $object-fit-contain,
+  "cover": $object-fit-cover,
+  "fill": $object-fit-fill,
+  "none": $object-fit-none,
+  "scale-down": $object-fit-scale-down,
+);
+
+/// Maps - Aspect Ratios
+$map-aspect-ratio: (
+  "auto": $aspect-ratio-auto,
+  "1-1": $aspect-ratio-1-1,
+  "4-3": $aspect-ration-4-3,
+  "16-9": $aspect-ratio-16-9,
+  "16-10": $aspect-ratio-16-10,
+  "21-9": $aspect-ratio-21-9,
+  "3-4": $aspect-ratio-3-4,
+  "9-16": $aspect-ratio-9-16,
+  "10-16": $aspect-ratio-10-16,
+  "9-21": $aspect-ratio-9-21,
 );

@@ -1,0 +1,120 @@
+/// Base
+:root {
+  /* colours */
+  @each $key, $value in $colours {
+    @each $tint-key, $tint-value in $value {
+      --clr-#{$key}-#{$tint-key}: #{$tint-value};
+    }
+  }
+
+  /* Font Families */
+  @each $key, $value in $font-families {
+    --ff-#{$key}: #{$value};
+  }
+
+  /* Font Sizes */
+  @each $key, $value in $font-sizes {
+    --fz-#{$key}: #{$value};
+  }
+
+  /* Font Weights */
+  @each $key, $value in $font-weights {
+    --fw-#{$key}: #{$value};
+  }
+
+  /* Font Styles */
+  @each $key, $value in $font-styles {
+    --fs-#{$key}: #{$value};
+  }
+
+  /* Fixed Spacers */
+  @each $key, $value in $fixed-spacers {
+    --size-f-#{$key}: #{$value};
+  }
+
+  /* Variable Spacers */
+  @each $key, $value in $variable-spacers {
+    --size-v-#{$key}: #{$value};
+  }
+
+  /* Breakpoints */
+  @each $key, $value in $breakpoints {
+    --bp-#{$key}: #{$value};
+  }
+
+  --wrapper-width: #{breakpoint("xxl")};
+}
+
+/// Base - HTML & Body
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fz-base);
+  font-weight: var(--fw-400);
+  font-style: var(--fs-normal);
+  color: var(--clr-gray-800);
+  background-color: var(--clr-gray-50);
+  line-height: 1.5;
+  position: relative;
+}
+
+:focus {
+  outline: 3px solid var(--clr-accent-3-400);
+}
+
+/// Base - Main
+.main {
+  &-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-grid {
+    display: grid;
+    place-items: center;
+  }
+}
+
+/// Base - Containers
+.wrapper {
+  --_width: var(--wrapper-width);
+  --_gutter: var(--size-v-400);
+
+  width: min(100% - var(--_gutter), var(--_width));
+  position: relative;
+
+  &-fluid {
+    --_width: 100%;
+  }
+
+  &-aligned-center {
+    margin-inline: auto;
+  }
+
+  &-no-gutter {
+    --_gutter: var(--size-v-0);
+  }
+}
+
+.container {
+  --_name: container;
+
+  container-name: var(--_name);
+  container-type: inline-size;
+}
+
+.flow {
+  --_spacer: var(--size-v-400);
+
+  & > * + * {
+    margin-top: var(--_spacer);
+  }
+}
+
+img {
+  cursor: pointer;
+}

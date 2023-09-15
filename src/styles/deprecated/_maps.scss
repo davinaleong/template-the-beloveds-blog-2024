@@ -1,194 +1,192 @@
 /// Maps
 
-/// Colors
+/// Colours
 /// Colours - Cream
-$clr-cream-50: hsl(39, 54%, 91%);
-$clr-cream-100: hsl(39, 54%, 81%);
-$clr-cream-200: hsl(39, 54%, 71%);
-$clr-cream-300: hsl(39, 54%, 61%);
-$clr-cream-400: hsl(39, 54%, 51%);
-$clr-cream-500: hsl(39, 54%, 41%);
-$clr-cream-600: hsl(39, 54%, 31%);
-$clr-cream-700: hsl(39, 54%, 21%);
-$clr-cream-800: hsl(39, 54%, 11%);
-$clr-cream-900: hsl(39, 54%, 1%);
+$colour-cream-0: hsl(39, 54%, 91%);
+$colour-cream-100: hsl(39, 54%, 81%);
+$colour-cream-200: hsl(39, 54%, 71%);
+$colour-cream-300: hsl(39, 54%, 61%);
+$colour-cream-400: hsl(39, 54%, 51%);
+$colour-cream-500: hsl(39, 54%, 41%);
+$colour-cream-600: hsl(39, 54%, 31%);
+$colour-cream-700: hsl(39, 54%, 21%);
+$colour-cream-800: hsl(39, 54%, 11%);
+$colour-cream-900: hsl(39, 54%, 1%);
 
-$clr-creams: (
-  "50": $clr-cream-50,
-  "100": $clr-cream-100,
-  "200": $clr-cream-200,
-  "300": $clr-cream-300,
-  "400": $clr-cream-400,
-  "500": $clr-cream-500,
-  "600": $clr-cream-600,
-  "700": $clr-cream-700,
-  "800": $clr-cream-800,
-  "900": $clr-cream-900,
+$colour-creams: (
+  "0": $colour-cream-0,
+  "100": $colour-cream-100,
+  "200": $colour-cream-200,
+  "300": $colour-cream-300,
+  "400": $colour-cream-400,
+  "500": $colour-cream-500,
+  "600": $colour-cream-600,
+  "700": $colour-cream-700,
+  "800": $colour-cream-800,
+  "900": $colour-cream-900,
 );
 
 /// Colours - Tans
-$clr-tan-50: hsl(39, 32%, 91%);
-$clr-tan-100: hsl(39, 32%, 81%);
-$clr-tan-200: hsl(39, 32%, 71%);
-$clr-tan-300: hsl(38, 10%, 63%);
-$clr-tan-400: hsl(38, 10%, 53%);
-$clr-tan-500: hsl(38, 10%, 43%);
-$clr-tan-600: hsl(38, 10%, 33%);
-$clr-tan-700: hsl(38, 10%, 23%);
-$clr-tan-800: hsl(38, 10%, 13%);
-$clr-tan-900: hsl(38, 10%, 3%);
+$colour-tan-0: hsl(39, 32%, 91%);
+$colour-tan-100: hsl(39, 32%, 81%);
+$colour-tan-200: hsl(39, 32%, 71%);
+$colour-tan-300: hsl(38, 10%, 63%);
+$colour-tan-400: hsl(38, 10%, 53%);
+$colour-tan-500: hsl(38, 10%, 43%);
+$colour-tan-600: hsl(38, 10%, 33%);
+$colour-tan-700: hsl(38, 10%, 23%);
+$colour-tan-800: hsl(38, 10%, 13%);
+$colour-tan-900: hsl(38, 10%, 3%);
 
-$clr-tans: (
-  "50": $clr-tan-50,
-  "100": $clr-tan-100,
-  "200": $clr-tan-200,
-  "300": $clr-tan-300,
-  "400": $clr-tan-400,
-  "500": $clr-tan-500,
-  "600": $clr-tan-600,
-  "700": $clr-tan-700,
-  "800": $clr-tan-800,
-  "900": $clr-tan-900,
+$colour-tans: (
+  "0": $colour-tan-0,
+  "100": $colour-tan-100,
+  "200": $colour-tan-200,
+  "300": $colour-tan-300,
+  "400": $colour-tan-400,
+  "500": $colour-tan-500,
+  "600": $colour-tan-600,
+  "700": $colour-tan-700,
+  "800": $colour-tan-800,
+  "900": $colour-tan-900,
 );
 
 /// Colours - Greens
-$clr-green-50: hsl(59, 25%, 94%);
-$clr-green-100: hsl(59, 25%, 84%);
-$clr-green-200: hsl(59, 25%, 74%);
-$clr-green-300: hsl(59, 25%, 64%);
-$clr-green-400: hsl(59, 25%, 54%);
-$clr-green-500: hsl(59, 25%, 44%);
-$clr-green-600: hsl(59, 25%, 34%);
-$clr-green-700: hsl(59, 25%, 24%);
-$clr-green-800: hsl(59, 25%, 14%);
-$clr-green-900: hsl(59, 25%, 04%);
+$colour-green-0: hsl(59, 25%, 94%);
+$colour-green-100: hsl(59, 25%, 84%);
+$colour-green-200: hsl(59, 25%, 74%);
+$colour-green-300: hsl(59, 25%, 64%);
+$colour-green-400: hsl(59, 25%, 54%);
+$colour-green-500: hsl(59, 25%, 44%);
+$colour-green-600: hsl(59, 25%, 34%);
+$colour-green-700: hsl(59, 25%, 24%);
+$colour-green-800: hsl(59, 25%, 14%);
+$colour-green-900: hsl(59, 25%, 04%);
 
-$clr-greens: (
-  "50": $clr-green-50,
-  "100": $clr-green-100,
-  "200": $clr-green-200,
-  "300": $clr-green-300,
-  "400": $clr-green-400,
-  "500": $clr-green-500,
-  "600": $clr-green-600,
-  "700": $clr-green-700,
-  "800": $clr-green-800,
-  "900": $clr-green-900,
+$colour-greens: (
+  "0": $colour-green-0,
+  "100": $colour-green-100,
+  "200": $colour-green-200,
+  "300": $colour-green-300,
+  "400": $colour-green-400,
+  "500": $colour-green-500,
+  "600": $colour-green-600,
+  "700": $colour-green-700,
+  "800": $colour-green-800,
+  "900": $colour-green-900,
 );
 
 /// Colours - Browns
-$clr-brown-50: hsl(30, 33%, 96%);
-$clr-brown-100: hsl(30, 33%, 86%);
-$clr-brown-200: hsl(30, 33%, 76%);
-$clr-brown-300: hsl(30, 33%, 66%);
-$clr-brown-400: hsl(30, 33%, 56%);
-$clr-brown-500: hsl(30, 33%, 46%);
-$clr-brown-600: hsl(30, 33%, 36%);
-$clr-brown-700: hsl(30, 33%, 26%);
-$clr-brown-800: hsl(30, 33%, 16%);
-$clr-brown-900: hsl(30, 33%, 6%);
+$colour-brown-0: hsl(30, 33%, 96%);
+$colour-brown-100: hsl(30, 33%, 86%);
+$colour-brown-200: hsl(30, 33%, 76%);
+$colour-brown-300: hsl(30, 33%, 66%);
+$colour-brown-400: hsl(30, 33%, 56%);
+$colour-brown-500: hsl(30, 33%, 46%);
+$colour-brown-600: hsl(30, 33%, 36%);
+$colour-brown-700: hsl(30, 33%, 26%);
+$colour-brown-800: hsl(30, 33%, 16%);
+$colour-brown-900: hsl(30, 33%, 6%);
 
-$clr-browns: (
-  "50": $clr-brown-50,
-  "100": $clr-brown-100,
-  "200": $clr-brown-200,
-  "300": $clr-brown-300,
-  "400": $clr-brown-400,
-  "500": $clr-brown-500,
-  "600": $clr-brown-600,
-  "700": $clr-brown-700,
-  "800": $clr-brown-800,
-  "900": $clr-brown-900,
+$colour-browns: (
+  "0": $colour-brown-0,
+  "100": $colour-brown-100,
+  "200": $colour-brown-200,
+  "300": $colour-brown-300,
+  "400": $colour-brown-400,
+  "500": $colour-brown-500,
+  "600": $colour-brown-600,
+  "700": $colour-brown-700,
+  "800": $colour-brown-800,
+  "900": $colour-brown-900,
 );
 
 /// Colours - Pinks
-$clr-pink-50: hsl(20, 67%, 94%);
-$clr-pink-100: hsl(20, 67%, 84%);
-$clr-pink-200: hsl(20, 67%, 74%);
-$clr-pink-300: hsl(20, 67%, 64%);
-$clr-pink-400: hsl(20, 67%, 54%);
-$clr-pink-500: hsl(20, 67%, 44%);
-$clr-pink-600: hsl(20, 67%, 34%);
-$clr-pink-700: hsl(20, 67%, 24%);
-$clr-pink-800: hsl(20, 67%, 14%);
-$clr-pink-900: hsl(20, 67%, 4%);
+$colour-pink-0: hsl(20, 67%, 94%);
+$colour-pink-100: hsl(20, 67%, 84%);
+$colour-pink-200: hsl(20, 67%, 74%);
+$colour-pink-300: hsl(20, 67%, 64%);
+$colour-pink-400: hsl(20, 67%, 54%);
+$colour-pink-500: hsl(20, 67%, 44%);
+$colour-pink-600: hsl(20, 67%, 34%);
+$colour-pink-700: hsl(20, 67%, 24%);
+$colour-pink-800: hsl(20, 67%, 14%);
+$colour-pink-900: hsl(20, 67%, 4%);
 
-$clr-pinks: (
-  "50": $clr-pink-50,
-  "100": $clr-pink-100,
-  "200": $clr-pink-200,
-  "300": $clr-pink-300,
-  "400": $clr-pink-400,
-  "500": $clr-pink-500,
-  "600": $clr-pink-600,
-  "700": $clr-pink-700,
-  "800": $clr-pink-800,
-  "900": $clr-pink-900,
+$colour-pinks: (
+  "0": $colour-pink-0,
+  "100": $colour-pink-100,
+  "200": $colour-pink-200,
+  "300": $colour-pink-300,
+  "400": $colour-pink-400,
+  "500": $colour-pink-500,
+  "600": $colour-pink-600,
+  "700": $colour-pink-700,
+  "800": $colour-pink-800,
+  "900": $colour-pink-900,
 );
 
 /// Colours - Blues
-$clr-blue-50: hsl(175, 13%, 98%);
-$clr-blue-100: hsl(175, 13%, 88%);
-$clr-blue-200: hsl(175, 13%, 78%);
-$clr-blue-300: hsl(175, 13%, 68%);
-$clr-blue-400: hsl(175, 13%, 58%);
-$clr-blue-500: hsl(175, 13%, 48%);
-$clr-blue-600: hsl(175, 13%, 38%);
-$clr-blue-700: hsl(175, 13%, 28%);
-$clr-blue-800: hsl(175, 13%, 18%);
-$clr-blue-900: hsl(175, 13%, 8%);
+$colour-blue-0: hsl(175, 13%, 98%);
+$colour-blue-100: hsl(175, 13%, 88%);
+$colour-blue-200: hsl(175, 13%, 78%);
+$colour-blue-300: hsl(175, 13%, 68%);
+$colour-blue-400: hsl(175, 13%, 58%);
+$colour-blue-500: hsl(175, 13%, 48%);
+$colour-blue-600: hsl(175, 13%, 38%);
+$colour-blue-700: hsl(175, 13%, 28%);
+$colour-blue-800: hsl(175, 13%, 18%);
+$colour-blue-900: hsl(175, 13%, 8%);
 
-$clr-blues: (
-  "50": $clr-blue-50,
-  "100": $clr-blue-100,
-  "200": $clr-blue-200,
-  "300": $clr-blue-300,
-  "400": $clr-blue-400,
-  "500": $clr-blue-500,
-  "600": $clr-blue-600,
-  "700": $clr-blue-700,
-  "800": $clr-blue-800,
-  "900": $clr-blue-900,
+$colour-blues: (
+  "0": $colour-blue-0,
+  "100": $colour-blue-100,
+  "200": $colour-blue-200,
+  "300": $colour-blue-300,
+  "400": $colour-blue-400,
+  "500": $colour-blue-500,
+  "600": $colour-blue-600,
+  "700": $colour-blue-700,
+  "800": $colour-blue-800,
+  "900": $colour-blue-900,
 );
 
 /// Colours - Grays
-$clr-gray-0: #ffffff;
-$clr-gray-50: #f1f1f1;
-$clr-gray-100: #e6e6e6;
-$clr-gray-200: #cccccc;
-$clr-gray-300: #b3b3b3;
-$clr-gray-400: #999999;
-$clr-gray-500: #808080;
-$clr-gray-600: #666666;
-$clr-gray-700: #4d4d4d;
-$clr-gray-800: #333333;
-$clr-gray-900: #202020;
-$clr-gray-1000: #000000;
+$colour-gray-0: #ffffff;
+$colour-gray-100: #e6e6e6;
+$colour-gray-200: #cccccc;
+$colour-gray-300: #b3b3b3;
+$colour-gray-400: #999999;
+$colour-gray-500: #808080;
+$colour-gray-600: #666666;
+$colour-gray-700: #4d4d4d;
+$colour-gray-800: #333333;
+$colour-gray-900: #202020;
+$colour-gray-1000: #000000;
 
-$clr-grays: (
-  "0": $clr-gray-0,
-  "50": $clr-gray-50,
-  "100": $clr-gray-100,
-  "200": $clr-gray-200,
-  "300": $clr-gray-300,
-  "400": $clr-gray-400,
-  "500": $clr-gray-500,
-  "600": $clr-gray-600,
-  "700": $clr-gray-700,
-  "800": $clr-gray-800,
-  "900": $clr-gray-900,
-  "1000": $clr-gray-1000,
+$colour-grays: (
+  "0": $colour-gray-0,
+  "100": $colour-gray-100,
+  "200": $colour-gray-200,
+  "300": $colour-gray-300,
+  "400": $colour-gray-400,
+  "500": $colour-gray-500,
+  "600": $colour-gray-600,
+  "700": $colour-gray-700,
+  "800": $colour-gray-800,
+  "900": $colour-gray-900,
+  "1000": $colour-gray-1000,
 );
 
 /// Colours - Maps
 $colours: (
-  "cream": $clr-creams,
-  "tan": $clr-tans,
-  "green": $clr-greens,
-  "brown": $clr-browns,
-  "pink": $clr-pinks,
-  "blue": $clr-blues,
-  "gray": $clr-grays,
+  "cream": $colour-creams,
+  "tan": $colour-tans,
+  "green": $colour-greens,
+  "brown": $colour-browns,
+  "pink": $colour-pinks,
+  "blue": $colour-blues,
+  "gray": $colour-grays,
 );
 
 /// Fonts
@@ -312,7 +310,7 @@ $fixed-spacers: (
   // Space 0: 0
   "0": 0,
   // Space 50: 2px → 2px
-  "50": clamp(0.13rem, calc(0.13rem + 0vw), 0.13rem),
+  "0": clamp(0.13rem, calc(0.13rem + 0vw), 0.13rem),
   // Space 100: 5px → 5px
   "100": clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem),
   // Space 200: 9px → 10px
@@ -340,7 +338,7 @@ $variable-spacers: (
   // Space 0: 0
   "0": 0,
   // Space 50: 2px → 2px
-  "50": clamp(0.13em, calc(0.13em + 0vw), 0.13em),
+  "0": clamp(0.13em, calc(0.13em + 0vw), 0.13em),
   // Space 100: 5px → 5px
   "100": clamp(0.31em, calc(0.31em + 0vw), 0.31em),
   // Space 200: 9px → 10px
@@ -432,7 +430,7 @@ $box-shadow-directions: (
 
 /// Box Shadows - Fixed Weights
 $box-shadow-f-weights: (
-  "50": 0.01rem,
+  "0": 0.01rem,
   "100": 0.03rem,
   "200": 0.05rem,
   "300": 0.1rem,
@@ -446,7 +444,7 @@ $box-shadow-f-weights: (
 
 /// Box Shadows - Variable Weights
 $box-shadow-v-weights: (
-  "50": 0.01em,
+  "0": 0.01em,
   "100": 0.03em,
   "200": 0.05em,
   "300": 0.1em,
@@ -500,7 +498,7 @@ $border-styles: (
 
 /// Border - Fixed Weights
 $border-f-weights: (
-  "50": 0.01rem,
+  "0": 0.01rem,
   "100": 0.03rem,
   "200": 0.05rem,
   "300": 0.1rem,
@@ -514,7 +512,7 @@ $border-f-weights: (
 
 /// Border - Variable Weights
 $border-v-weights: (
-  "50": 0.01em,
+  "0": 0.01em,
   "100": 0.03em,
   "200": 0.05em,
   "300": 0.1em,

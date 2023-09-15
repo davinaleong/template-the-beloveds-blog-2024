@@ -1,21 +1,85 @@
 /// Maps
 
 /// Maps - Colours
-$map-slate: (
-  "0": $colour-slate-0,
-  "100": $colour-slate-100,
-  "200": $colour-slate-200,
-  "300": $colour-slate-300,
-  "400": $colour-slate-400,
-  "500": $colour-slate-500,
-  "600": $colour-slate-600,
-  "700": $colour-slate-700,
-  "800": $colour-slate-800,
-  "900": $colour-slate-900,
-  "1000": $colour-slate-1000,
+$colour-cream: (
+  "0": $colour-cream-0,
+  "100": $colour-cream-100,
+  "200": $colour-cream-200,
+  "300": $colour-cream-300,
+  "400": $colour-cream-400,
+  "500": $colour-cream-500,
+  "600": $colour-cream-600,
+  "700": $colour-cream-700,
+  "800": $colour-cream-800,
+  "900": $colour-cream-900,
 );
 
-$map-gray: (
+$colour-tan: (
+  "0": $colour-tan-0,
+  "100": $colour-tan-100,
+  "200": $colour-tan-200,
+  "300": $colour-tan-300,
+  "400": $colour-tan-400,
+  "500": $colour-tan-500,
+  "600": $colour-tan-600,
+  "700": $colour-tan-700,
+  "800": $colour-tan-800,
+  "900": $colour-tan-900,
+);
+
+$colour-green: (
+  "0": $colour-green-0,
+  "100": $colour-green-100,
+  "200": $colour-green-200,
+  "300": $colour-green-300,
+  "400": $colour-green-400,
+  "500": $colour-green-500,
+  "600": $colour-green-600,
+  "700": $colour-green-700,
+  "800": $colour-green-800,
+  "900": $colour-green-900,
+);
+
+$colour-brown: (
+  "0": $colour-brown-0,
+  "100": $colour-brown-100,
+  "200": $colour-brown-200,
+  "300": $colour-brown-300,
+  "400": $colour-brown-400,
+  "500": $colour-brown-500,
+  "600": $colour-brown-600,
+  "700": $colour-brown-700,
+  "800": $colour-brown-800,
+  "900": $colour-brown-900,
+);
+
+$colour-pink: (
+  "0": $colour-pink-0,
+  "100": $colour-pink-100,
+  "200": $colour-pink-200,
+  "300": $colour-pink-300,
+  "400": $colour-pink-400,
+  "500": $colour-pink-500,
+  "600": $colour-pink-600,
+  "700": $colour-pink-700,
+  "800": $colour-pink-800,
+  "900": $colour-pink-900,
+);
+
+$colour-blue: (
+  "0": $colour-blue-0,
+  "100": $colour-blue-100,
+  "200": $colour-blue-200,
+  "300": $colour-blue-300,
+  "400": $colour-blue-400,
+  "500": $colour-blue-500,
+  "600": $colour-blue-600,
+  "700": $colour-blue-700,
+  "800": $colour-blue-800,
+  "900": $colour-blue-900,
+);
+
+$colour-gray: (
   "0": $colour-gray-0,
   "100": $colour-gray-100,
   "200": $colour-gray-200,
@@ -29,309 +93,14 @@ $map-gray: (
   "1000": $colour-gray-1000,
 );
 
-$map-zinc: (
-  "0": $colour-zinc-0,
-  "100": $colour-zinc-100,
-  "200": $colour-zinc-200,
-  "300": $colour-zinc-300,
-  "400": $colour-zinc-400,
-  "500": $colour-zinc-500,
-  "600": $colour-zinc-600,
-  "700": $colour-zinc-700,
-  "800": $colour-zinc-800,
-  "900": $colour-zinc-900,
-  "1000": $colour-zinc-1000,
-);
-
-$map-neutral: (
-  "0": $colour-neutral-0,
-  "100": $colour-neutral-100,
-  "200": $colour-neutral-200,
-  "300": $colour-neutral-300,
-  "400": $colour-neutral-400,
-  "500": $colour-neutral-500,
-  "600": $colour-neutral-600,
-  "700": $colour-neutral-700,
-  "800": $colour-neutral-800,
-  "900": $colour-neutral-900,
-  "1000": $colour-neutral-1000,
-);
-
-$map-stone: (
-  "0": $colour-stone-0,
-  "100": $colour-stone-100,
-  "200": $colour-stone-200,
-  "300": $colour-stone-300,
-  "400": $colour-stone-400,
-  "500": $colour-stone-500,
-  "600": $colour-stone-600,
-  "700": $colour-stone-700,
-  "800": $colour-stone-800,
-  "900": $colour-stone-900,
-  "1000": $colour-stone-1000,
-);
-
-$map-red: (
-  "0": $colour-red-0,
-  "100": $colour-red-100,
-  "200": $colour-red-200,
-  "300": $colour-red-300,
-  "400": $colour-red-400,
-  "500": $colour-red-500,
-  "600": $colour-red-600,
-  "700": $colour-red-700,
-  "800": $colour-red-800,
-  "900": $colour-red-900,
-  "1000": $colour-red-1000,
-);
-
-$map-orange: (
-  "0": $colour-orange-0,
-  "100": $colour-orange-100,
-  "200": $colour-orange-200,
-  "300": $colour-orange-300,
-  "400": $colour-orange-400,
-  "500": $colour-orange-500,
-  "600": $colour-orange-600,
-  "700": $colour-orange-700,
-  "800": $colour-orange-800,
-  "900": $colour-orange-900,
-  "1000": $colour-orange-1000,
-);
-
-$map-amber: (
-  "0": $colour-amber-0,
-  "100": $colour-amber-100,
-  "200": $colour-amber-200,
-  "300": $colour-amber-300,
-  "400": $colour-amber-400,
-  "500": $colour-amber-500,
-  "600": $colour-amber-600,
-  "700": $colour-amber-700,
-  "800": $colour-amber-800,
-  "900": $colour-amber-900,
-  "1000": $colour-amber-1000,
-);
-
-$map-yellow: (
-  "0": $colour-yellow-0,
-  "100": $colour-yellow-100,
-  "200": $colour-yellow-200,
-  "300": $colour-yellow-300,
-  "400": $colour-yellow-400,
-  "500": $colour-yellow-500,
-  "600": $colour-yellow-600,
-  "700": $colour-yellow-700,
-  "800": $colour-yellow-800,
-  "900": $colour-yellow-900,
-  "1000": $colour-yellow-1000,
-);
-
-$map-lime: (
-  "0": $colour-lime-0,
-  "100": $colour-lime-100,
-  "200": $colour-lime-200,
-  "300": $colour-lime-300,
-  "400": $colour-lime-400,
-  "500": $colour-lime-500,
-  "600": $colour-lime-600,
-  "700": $colour-lime-700,
-  "800": $colour-lime-800,
-  "900": $colour-lime-900,
-  "1000": $colour-lime-1000,
-);
-
-$map-green: (
-  "0": $colour-green-0,
-  "100": $colour-green-100,
-  "200": $colour-green-200,
-  "300": $colour-green-300,
-  "400": $colour-green-400,
-  "500": $colour-green-500,
-  "600": $colour-green-600,
-  "700": $colour-green-700,
-  "800": $colour-green-800,
-  "900": $colour-green-900,
-  "1000": $colour-green-1000,
-);
-
-$map-emerald: (
-  "0": $colour-emerald-0,
-  "100": $colour-emerald-100,
-  "200": $colour-emerald-200,
-  "300": $colour-emerald-300,
-  "400": $colour-emerald-400,
-  "500": $colour-emerald-500,
-  "600": $colour-emerald-600,
-  "700": $colour-emerald-700,
-  "800": $colour-emerald-800,
-  "900": $colour-emerald-900,
-  "1000": $colour-emerald-1000,
-);
-
-$map-teal: (
-  "0": $colour-teal-0,
-  "100": $colour-teal-100,
-  "200": $colour-teal-200,
-  "300": $colour-teal-300,
-  "400": $colour-teal-400,
-  "500": $colour-teal-500,
-  "600": $colour-teal-600,
-  "700": $colour-teal-700,
-  "800": $colour-teal-800,
-  "900": $colour-teal-900,
-  "1000": $colour-teal-1000,
-);
-
-$map-cyan: (
-  "0": $colour-cyan-0,
-  "100": $colour-cyan-100,
-  "200": $colour-cyan-200,
-  "300": $colour-cyan-300,
-  "400": $colour-cyan-400,
-  "500": $colour-cyan-500,
-  "600": $colour-cyan-600,
-  "700": $colour-cyan-700,
-  "800": $colour-cyan-800,
-  "900": $colour-cyan-900,
-  "1000": $colour-cyan-1000,
-);
-
-$map-sky: (
-  "0": $colour-sky-0,
-  "100": $colour-sky-100,
-  "200": $colour-sky-200,
-  "300": $colour-sky-300,
-  "400": $colour-sky-400,
-  "500": $colour-sky-500,
-  "600": $colour-sky-600,
-  "700": $colour-sky-700,
-  "800": $colour-sky-800,
-  "900": $colour-sky-900,
-  "1000": $colour-sky-1000,
-);
-
-$map-blue: (
-  "0": $colour-blue-0,
-  "100": $colour-blue-100,
-  "200": $colour-blue-200,
-  "300": $colour-blue-300,
-  "400": $colour-blue-400,
-  "500": $colour-blue-500,
-  "600": $colour-blue-600,
-  "700": $colour-blue-700,
-  "800": $colour-blue-800,
-  "900": $colour-blue-900,
-  "1000": $colour-blue-1000,
-);
-
-$map-indigo: (
-  "0": $colour-indigo-0,
-  "100": $colour-indigo-100,
-  "200": $colour-indigo-200,
-  "300": $colour-indigo-300,
-  "400": $colour-indigo-400,
-  "500": $colour-indigo-500,
-  "600": $colour-indigo-600,
-  "700": $colour-indigo-700,
-  "800": $colour-indigo-800,
-  "900": $colour-indigo-900,
-  "1000": $colour-indigo-1000,
-);
-
-$map-violet: (
-  "0": $colour-violet-0,
-  "100": $colour-violet-100,
-  "200": $colour-violet-200,
-  "300": $colour-violet-300,
-  "400": $colour-violet-400,
-  "500": $colour-violet-500,
-  "600": $colour-violet-600,
-  "700": $colour-violet-700,
-  "800": $colour-violet-800,
-  "900": $colour-violet-900,
-  "1000": $colour-violet-1000,
-);
-
-$map-purple: (
-  "0": $colour-purple-0,
-  "100": $colour-purple-100,
-  "200": $colour-purple-200,
-  "300": $colour-purple-300,
-  "400": $colour-purple-400,
-  "500": $colour-purple-500,
-  "600": $colour-purple-600,
-  "700": $colour-purple-700,
-  "800": $colour-purple-800,
-  "900": $colour-purple-900,
-  "1000": $colour-purple-1000,
-);
-
-$map-fuchsia: (
-  "0": $colour-fuchsia-0,
-  "100": $colour-fuchsia-100,
-  "200": $colour-fuchsia-200,
-  "300": $colour-fuchsia-300,
-  "400": $colour-fuchsia-400,
-  "500": $colour-fuchsia-500,
-  "600": $colour-fuchsia-600,
-  "700": $colour-fuchsia-700,
-  "800": $colour-fuchsia-800,
-  "900": $colour-fuchsia-900,
-  "1000": $colour-fuchsia-1000,
-);
-
-$map-pink: (
-  "0": $colour-pink-0,
-  "100": $colour-pink-100,
-  "200": $colour-pink-200,
-  "300": $colour-pink-300,
-  "400": $colour-pink-400,
-  "500": $colour-pink-500,
-  "600": $colour-pink-600,
-  "700": $colour-pink-700,
-  "800": $colour-pink-800,
-  "900": $colour-pink-900,
-  "1000": $colour-pink-1000,
-);
-
-$map-rose: (
-  "0": $colour-rose-0,
-  "100": $colour-rose-100,
-  "200": $colour-rose-200,
-  "300": $colour-rose-300,
-  "400": $colour-rose-400,
-  "500": $colour-rose-500,
-  "600": $colour-rose-600,
-  "700": $colour-rose-700,
-  "800": $colour-rose-800,
-  "900": $colour-rose-900,
-  "1000": $colour-rose-1000,
-);
-
 $map-colour: (
-  "slate": $map-slate,
-  "gray": $map-gray,
-  "zinc": $map-zinc,
-  "neutral": $map-neutral,
-  "stone": $map-stone,
-  "red": $map-red,
-  "orange": $map-orange,
-  "amber": $map-amber,
-  "yellow": $map-yellow,
-  "lime": $map-lime,
+  "cream": $map-cream,
+  "tan": $map-tan,
   "green": $map-green,
-  "emerald": $map-emerald,
-  "teal": $map-teal,
-  "cyan": $map-cyan,
-  "sky": $map-sky,
-  "blue": $map-blue,
-  "indigo": $map-indigo,
-  "violet": $map-violet,
-  "purple": $map-purple,
-  "fuchsia": $map-fuchsia,
+  "brown": $map-brown,
   "pink": $map-pink,
-  "rose": $map-rose,
+  "blue": $map-blue,
+  "gray": $map-gray,
 );
 
 $map-brand-colour: (

@@ -27,6 +27,15 @@
   opacity: var(--_opacity);
   border-radius: var(--v-100);
 
+  &-back-to-top {
+    position: fixed;
+    right: var(--v-400);
+    bottom: var(--v-400);
+    z-index: 1;
+    box-shadow: var(--shadow-v-300) var(--shadow-v-300) 0.3em 0
+      hsla(0, 0%, 0%, 0.5);
+  }
+
   &:hover {
     color: var(--_hover-clr);
     background-color: var(--_hover-bg-clr);

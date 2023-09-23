@@ -50,6 +50,16 @@
     --v-o-#{$key}: #{$value};
   }
 
+  /* Fixed Shadows */
+  @each $key, $value in $map-box-shadow-fixed-width {
+    --shadow-f-#{$key}: #{$value};
+  }
+
+  /* Variable Shadows */
+  @each $key, $value in $map-box-shadow-variable-width {
+    --shadow-v-#{$key}: #{$value};
+  }
+
   /* Fixed Line Heights */
   @each $key, $value in $map-line-height-fixed {
     --lh-f-#{$key}: #{$value};
@@ -81,6 +91,9 @@
 body {
   font-family: var(--ff-sans-serif);
   font-size: var(--fz-400);
+  color: var(--clr-gray-800);
+  background-color: var(--clr-cream-0);
+  position: relative;
 }
 
 :focus {

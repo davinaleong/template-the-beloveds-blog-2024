@@ -5,14 +5,12 @@ import { Config } from "./config"
 /// Variables
 
 /// Functions
-/// Functions - Main
 function main() {
   logFunction(`main`)
 
   renderCopyright()
 }
 
-/// Functions - All Pages
 function renderCopyright() {
   logFunction(`renderCopyright`)
 

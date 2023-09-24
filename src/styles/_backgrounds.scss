@@ -5,6 +5,32 @@
   background-repeat: no-repeat;
 }
 
+.bg {
+  --_bg-image: url(/src/assets/images/0002.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: var(--_bg-image);
+  background-color: var(--clr-gray-1000);
+}
+
+.bg-hero {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: hsla(0, 0%, 0%, 0.5);
+  }
+
+  & > * {
+    position: relative;
+    z-index: var(--l-0);
+  }
+}
+
 .bg-0001 {
   background-image: url(/src/assets/images/0001.jpg);
 }

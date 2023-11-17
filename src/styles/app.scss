@@ -1,7 +1,12 @@
+// Main CSS Script
+
 @tailwind base;
 @tailwind components;
 
 @import "./fonts";
 @import "./custom";
+@import "./project";
+@import "./content";
+@import "./tables";
 
 @tailwind utilities;

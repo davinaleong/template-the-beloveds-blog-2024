@@ -1,0 +1,24 @@
+/// Primary Header
+
+.primary-header {
+  --_primary-header-bg: theme("colors.tbbCream.100");
+  --_primary-header-spacer: theme("padding.4");
+  --_primary-header-gap-spacer: theme("gap.4");
+
+  font-family: theme("fontFamily.serif");
+
+  &__nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: var(--_primary-header-gap-spacer);
+
+    &__group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--_primary-header-gap-spacer);
+    }
+  }
+}

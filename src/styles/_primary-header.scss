@@ -2,10 +2,18 @@
 
 .primary-header {
   --_primary-header-bg: theme("colors.tbbCream.100");
-  --_primary-header-spacer: theme("padding.4");
+  --_primary-header-spacer: theme("padding.3");
   --_primary-header-gap-spacer: theme("gap.4");
 
   font-family: theme("fontFamily.serif");
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--_primary-header-bg);
+  padding-block-start: var(--_primary-header-spacer);
+  padding-block-end: var(--_primary-header-spacer);
+  padding-inline-start: var(--_primary-header-spacer);
+  padding-inline-end: var(--_primary-header-spacer);
 
   &__nav {
     display: flex;

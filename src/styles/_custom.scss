@@ -59,3 +59,20 @@ a {
     }
   }
 }
+
+.text-grid {
+  --_text-width: 20ch;
+  --_spacer: var(--v-400);
+
+  display: grid;
+  grid-template-columns: var(--_text-width) auto;
+  align-items: end;
+  gap: var(--_spacer);
+}
+
+.container-q {
+  --_container-q-name: container-q;
+
+  container-name: var(--_container-q-name);
+  container-type: inline-size;
+}

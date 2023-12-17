@@ -1,10 +1,68 @@
-// Styles Specific to the Project
-.text-grid {
-  --_text-width: 20ch;
-  --_spacer: var(--v-400);
+/// Styles Specific to the Project
+body {
+  color: theme("colors.neutral.800");
+  background-color: theme("colors.tbbCream.50");
+  font-family: theme("fontFamily.sans");
+  font-weight: theme("fontWeight.normal");
+  font-size: theme("fontSize.base");
+}
 
-  display: grid;
-  grid-template-columns: var(--_text-width) auto;
-  align-items: end;
-  gap: var(--_spacer);
+a {
+  --_a-clr: theme("colors.neutral.800");
+  --_a-td: underline;
+
+  --_a-hover-clr: theme("colors.neutral.600");
+  --_a-hover-td: underline;
+}
+
+.btn {
+  &-tbb {
+    &Cream {
+      --_btn-bg-clr: theme("colors.tbbCream.500");
+      --_btn-border-clr: theme("colors.tbbCream.500");
+
+      --_btn-hover-bg-clr: theme("colors.tbbCream.600");
+      --_btn-hover-border-clr: theme("colors.tbbCream.600");
+    }
+
+    &Tan {
+      --_btn-bg-clr: theme("colors.tbbTan.500");
+      --_btn-border-clr: theme("colors.tbbTan.500");
+
+      --_btn-hover-bg-clr: theme("colors.tbbTan.600");
+      --_btn-hover-border-clr: theme("colors.tbbTan.600");
+    }
+
+    &Green {
+      --_btn-bg-clr: theme("colors.tbbGreen.500");
+      --_btn-border-clr: theme("colors.tbbGreen.500");
+
+      --_btn-hover-bg-clr: theme("colors.tbbGreen.600");
+      --_btn-hover-border-clr: theme("colors.tbbGreen.600");
+    }
+
+    &Brown {
+      --_btn-bg-clr: theme("colors.tbbBrown.500");
+      --_btn-border-clr: theme("colors.tbbBrown.500");
+
+      --_btn-hover-bg-clr: theme("colors.tbbBrown.600");
+      --_btn-hover-border-clr: theme("colors.tbbBrown.600");
+    }
+
+    &Pink {
+      --_btn-bg-clr: theme("colors.tbbPink.500");
+      --_btn-border-clr: theme("colors.tbbPink.500");
+
+      --_btn-hover-bg-clr: theme("colors.tbbPink.600");
+      --_btn-hover-border-clr: theme("colors.tbbPink.600");
+    }
+
+    &Blue {
+      --_btn-bg-clr: theme("colors.tbbBlue.500");
+      --_btn-border-clr: theme("colors.tbbBlue.500");
+
+      --_btn-hover-bg-clr: theme("colors.tbbBlue.600");
+      --_btn-hover-border-clr: theme("colors.tbbBlue.600");
+    }
+  }
 }

@@ -23,3 +23,11 @@
     }
   }
 }
+
+@container body (width < theme("screens.md")) {
+  .brand {
+    &__graphic {
+      display: none;
+    }
+  }
+}

@@ -8,11 +8,16 @@
 
     <link rel="icon" type="image/svg+xml" href="/src/assets/images/logo.svg" />
     <link rel="stylesheet" href="/src/styles/app.scss" />
+
+    <script
+      src="https://kit.fontawesome.com/1b82ea5cb2.js"
+      crossorigin="anonymous"
+    ></script>
     <script defer type="module" src="/src/scripts/app.ts"></script>
   </head>
 
-  <body id="top">
-    <header class="primary-header">
+  <body class="container-q" id="top" style="--_container-q-name: body">
+    <header class="primary-header" data-element="primary-header">
       <div class="wrapper m-v-inline-auto p-v-block-300 p-v-inline-400">
         <nav class="primary-header__nav">
           <div class="primary-header__nav__group">
@@ -20,15 +25,9 @@
             <a href="./post.html">Latest Scroll</a>
           </div>
           <a href="./index.html" class="brand">
-            <div class="brand__graphic brand__graphic-left">
-              <div class="long-arrow"></div>
-              <div class="small-arrow"></div>
-            </div>
+            <div class="brand__graphic brand__graphic-left"></div>
             <div class="title">The Beloved's Blog</div>
-            <div class="brand__graphic brand__graphic-right">
-              <div class="small-arrow"></div>
-              <div class="long-arrow"></div>
-            </div>
+            <div class="brand__graphic brand__graphic-right"></div>
           </a>
           <div class="primary-header__nav__group">
             <a href="./archive.html">Scroll Bottles</a>
@@ -36,6 +35,24 @@
           </div>
         </nav>
       </div>
+
+      <button
+        class="btn text-xl"
+        type="button"
+        data-element="primary-header__btn-menu"
+      >
+        <i class="fa-sharp fa-light fa-bars"></i>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <button
+        class="btn text-xl"
+        type="button"
+        data-element="primary-header__btn-close"
+      >
+        <i class="fa-sharp fa-light fa-xmark"></i>
+        <span class="sr-only">Close</span>
+      </button>
     </header>
 
     <a href="#top" class="btn btn-back-to-top p-fixed">Top</a>

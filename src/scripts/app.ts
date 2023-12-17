@@ -1,27 +1,12 @@
-console.log(`app.js loaded`);
-import "../styles/app.scss";
-import { now, logFunction, getElement } from "./helpers";
-import { Config } from "./config";
+console.log(`app.js loaded`)
+import "../styles/app.scss"
+import { logFunction } from "./helpers"
+import { renderCopyright } from "./elements"
 
-/// Variables
+async function main() {
+  logFunction(`main`)
 
-/// Functions
-function renderCopyright() {
-  logFunction(`renderCopyright`);
-
-  // Format: The Beloved's Blog &copy; Davina Leong, 2022-2024
-  const copyrightEl: HTMLElement | null = getElement(`copyright`);
-  if (copyrightEl) {
-    const yearHtml =
-      Config.year === now.getFullYear()
-        ? `${Config.year}`
-        : `${Config.year} &ndash; ${now.getFullYear()}`;
-
-    copyrightEl.innerHTML = `
-        ${Config.appName} &copy; ${Config.author}, ${yearHtml}
-        `;
-  }
+  renderCopyright()
 }
 
-/// Execute
-renderCopyright();
+document.addEventListener(`DOMContentLoaded`, main)

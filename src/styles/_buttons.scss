@@ -68,6 +68,13 @@
     display: none;
   }
 
+  &-back-to-top {
+    right: theme("padding.2");
+    bottom: theme("padding.2");
+    position: absolute;
+    z-index: 1;
+  }
+
   &-theme {
     border-radius: theme("borderRadius.sm");
     box-shadow: theme("boxShadow.md");

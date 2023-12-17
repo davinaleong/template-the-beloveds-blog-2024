@@ -9,6 +9,16 @@
   border: 2px solid theme("colors.neutral.50");
 }
 
+body {
+  color: theme("colors.neutral.950");
+  background-color: theme("colors.neutral.50");
+  font-family: theme("fontFamily.sans");
+  font-weight: theme("fontWeight.normal");
+  font-size: theme("fontSize.base");
+  min-height: 100vh;
+  position: relative;
+}
+
 a {
   --_a-clr: theme("colors.blue.500");
   --_a-td: none;

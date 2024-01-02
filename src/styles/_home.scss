@@ -57,7 +57,6 @@
 
   &-featured {
     --_section-home-featured-decor-spacer: theme("spacing.2");
-    --_section-home-featured-spacer: theme("spacing.4");
 
     border-block-start: var(--_section-border);
     border-block-end: var(--_section-border);
@@ -87,34 +86,70 @@
 
         &__img {
           display: none;
-          aspect-ratio: 1 / 1;
+          aspect-ratio: 4 / 3;
           object-fit: cover;
         }
 
         &__content {
           align-self: center;
-          padding-block-start: var(--_section-home-featured-spacer);
-          padding-block-end: var(--_section-home-featured-spacer);
-          padding-inline-start: var(--_section-home-featured-spacer);
-          padding-inline-end: var(--_section-home-featured-spacer);
+          padding-block-start: var(--_section-spacer);
+          padding-block-end: var(--_section-spacer);
+          padding-inline-start: var(--_section-spacer);
+          padding-inline-end: var(--_section-spacer);
         }
+      }
+    }
+  }
+
+  &-scripture {
+    border-block-start: var(--_section-border);
+    border-block-end: var(--_section-border);
+
+    &__main {
+      background-color: theme("colors.tbbTan.200");
+      border-inline-start: var(--_section-border);
+      border-inline-end: var(--_section-border);
+
+      &__img {
+        display: none;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+      }
+
+      &__body {
+        align-self: center;
+        padding-block-start: var(--_section-spacer);
+        padding-block-end: var(--_section-spacer);
+        padding-inline-start: var(--_section-spacer);
+        padding-inline-end: var(--_section-spacer);
       }
     }
   }
 }
 
 @container container-q-home-featured (width > theme("screens.md")) {
-  .section-home {
-    &-featured {
-      &__body {
-        &__main {
-          display: grid;
-          grid-template-columns: 2fr 3fr;
+  .section-home-featured {
+    &__body {
+      &__main {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
 
-          &__img {
-            display: block;
-          }
+        &__img {
+          display: block;
         }
+      }
+    }
+  }
+}
+
+@container container-q-home-scripture (width > theme("screens.md")) {
+  .section-home-scripture {
+    &__main {
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+
+      &__img {
+        display: block;
       }
     }
   }

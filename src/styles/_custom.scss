@@ -47,6 +47,12 @@ a {
   cursor: pointer;
 }
 
+.wrapper {
+  --_wrapper-width: var(--content-width);
+
+  width: min(100%, var(--_wrapper-width));
+}
+
 .content-grid {
   --_width: var(--content-width);
 

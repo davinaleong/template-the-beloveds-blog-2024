@@ -5,11 +5,16 @@ body {
 }
 
 a {
-  --_a-clr: theme("colors.neutral.800");
+  --_a-clr: theme("colors.neutral.700");
   --_a-td: underline;
 
-  --_a-hover-clr: theme("colors.neutral.600");
+  --_a-hover-clr: theme("colors.neutral.500");
   --_a-hover-td: underline;
+}
+
+time {
+  color: theme("colors.neutral.500");
+  font-weight: theme("fontWeight.semibold");
 }
 
 .btn {

@@ -49,9 +49,74 @@
       }
     }
 
-    .hero__content {
+    &__body {
       max-width: 60ch;
       margin-inline: auto;
+    }
+  }
+
+  &-featured {
+    --_section-home-featured-border: thin solid theme("colors.neutral.800");
+    --_section-home-featured-decor-spacer: theme("spacing.2");
+    --_section-home-featured-spacer: theme("spacing.4");
+
+    border-block-start: var(--_section-home-featured-border);
+    border-block-end: var(--_section-home-featured-border);
+
+    &__body {
+      display: grid;
+      align-items: center;
+      grid-template-columns: min-content auto min-content;
+      border-inline-start: var(--_section-home-featured-border);
+      border-inline-end: var(--_section-home-featured-border);
+
+      &__decoration {
+        padding-block-start: var(--_section-home-featured-decor-spacer);
+        padding-block-end: var(--_section-home-featured-decor-spacer);
+        padding-inline-start: var(--_section-home-featured-decor-spacer);
+        padding-inline-end: var(--_section-home-featured-decor-spacer);
+        text-transform: uppercase;
+        letter-spacing: theme("letterSpacing.3");
+        font-family: theme("fontFamily.serif");
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+      }
+
+      &__main {
+        border-inline-start: var(--_section-home-featured-border);
+        border-inline-end: var(--_section-home-featured-border);
+
+        &__img {
+          display: none;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+        }
+
+        &__content {
+          align-self: center;
+          padding-block-start: var(--_section-home-featured-spacer);
+          padding-block-end: var(--_section-home-featured-spacer);
+          padding-inline-start: var(--_section-home-featured-spacer);
+          padding-inline-end: var(--_section-home-featured-spacer);
+        }
+      }
+    }
+  }
+}
+
+@container container-q-home-featured (width > theme("screens.md")) {
+  .section-home {
+    &-featured {
+      &__body {
+        &__main {
+          display: grid;
+          grid-template-columns: 2fr 3fr;
+
+          &__img {
+            display: block;
+          }
+        }
+      }
     }
   }
 }

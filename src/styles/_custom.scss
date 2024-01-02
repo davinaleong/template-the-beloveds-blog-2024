@@ -90,4 +90,12 @@ a {
 
   container-name: var(--_container-q-name);
   container-type: inline-size;
+
+  &-primary-main {
+    --_container-q-name: container-q-primary-main;
+  }
+
+  &-home-featured {
+    --_container-q-name: container-q-home-featured;
+  }
 }

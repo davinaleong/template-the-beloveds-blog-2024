@@ -16,7 +16,7 @@
     <script defer type="module" src="/src/scripts/app.ts"></script>
   </head>
 
-  <body class="container-q" id="top" style="--_container-q-name: body">
+  <body id="top">
     <a href="#" class="btn btn-tbb btn-skip-navigation">Skip Navigation</a>
 
     <header class="primary-header" data-element="primary-header">
@@ -58,40 +58,62 @@
       </button>
     </header>
 
-    <main class="primary-main primary-main-home">
+    <main
+      class="primary-main primary-main-home container-q container-q-primary-main"
+    >
       <a href="#top" class="btn btn-back-to-top">Top</a>
 
       <div class="flow">
         <!-- Hero Section -->
         <section class="section section-home section-home-hero">
           <article class="wrapper section__wrapper mx-auto p-4">
-            <div class="hero__content hero__content-landing | text-center flow">
+            <div class="section-home-hero__body | text-center flow">
               <h1 class="text-5xl font-serif">The Beloved's Blog</h1>
               <p class="text-xl">
                 My Treasury of Divine Testimonies and Sacred Revelations,
                 Unveiled Through the Scrolls of Faith.
               </p>
             </div>
-            <!-- ./hero__content -->
+            <!-- ./hero__body -->
           </article>
         </section>
 
         <!-- Featured Article -->
         <section class="section section-home section-home-featured">
           <article class="wrapper section__wrapper mx-auto">
-            <img src="./src/assets/images/0007.jpg" alt="" class="of-cover" />
-            <div class="flow">
-              <h2>Lorem, ipsum dolor.</h2>
+            <div
+              class="section-home-featured__body container-q container-q-home-featured"
+            >
+              <div class="section-home-featured__body__decoration">
+                Featured
+              </div>
 
-              <p>Written on <time>19 Aug 2023</time></p>
+              <div class="section-home-featured__body__main | flow">
+                <img
+                  src="./src/assets/images/0007.jpg"
+                  alt=""
+                  class="section-home-featured__body__main__img"
+                />
+                <div class="section-home-featured__body__main__content | flow">
+                  <h2 class="text-4xl font-serif">Lorem, ipsum dolor.</h2>
 
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium blanditiis impedit illo nisi error ut, quibusdam
-                ipsum sapiente. Veritatis, eaque!
-              </p>
+                  <p class="text-sm">
+                    Written on <time datetime="2023-08-19">19 Aug 2023</time>
+                  </p>
 
-              <p><a href="#">Read more</a></p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Laudantium blanditiis impedit illo nisi error ut, quibusdam
+                    ipsum sapiente. Veritatis, eaque!
+                  </p>
+
+                  <p><a href="#">Read more</a></p>
+                </div>
+              </div>
+
+              <div class="section-home-featured__body__decoration">
+                Featured
+              </div>
             </div>
             <!-- ./flow -->
           </article>

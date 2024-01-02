@@ -99,8 +99,9 @@
   }
 
   &-scripture {
+    background-color: theme("colors.tbbTan.200");
+
     &__main {
-      background-color: theme("colors.tbbTan.200");
       border-inline-start: var(--_section-border);
       border-inline-end: var(--_section-border);
 
@@ -150,6 +151,9 @@
     }
 
     &__article {
+      --_article-bg-clr: theme("colors.tbbPink.200");
+
+      background-color: var(--_article-bg-clr);
       border-block-start: var(--_section-border);
       border-inline-start: var(--_section-border);
       border-inline-end: var(--_section-border);
@@ -165,6 +169,18 @@
         display: none;
         aspect-ratio: 3 / 4;
         object-fit: cover;
+      }
+
+      &:nth-of-type(3n-1) {
+        background-color: theme("colors.tbbBlue.300");
+      }
+
+      &:nth-of-type(3n-2) {
+        background-color: theme("colors.tbbGreen.300");
+      }
+
+      &:nth-of-type(3n-3) {
+        background-color: theme("colors.tbbPink.200");
       }
 
       &:last-of-type {

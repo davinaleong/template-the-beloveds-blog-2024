@@ -68,6 +68,29 @@
     display: none;
   }
 
+  &-tbb {
+    --_btn-clr: theme("colors.neutral.800");
+    --_btn-bg-clr: theme("colors.tbbCream.100");
+    --_btn-border-clr: theme("colors.neutral.800");
+
+    --_btn-hover-clr: theme("colors.neutral.800");
+    --_btn-hover-bg-clr: theme("colors.tbbCream.300");
+    --_btn-hover-border-clr: theme("colors.neutral.800");
+  }
+
+  &-skip-navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0 -100%;
+    transition: translate 0.5s ease-in-out;
+    overflow: hidden;
+
+    &:focus {
+      translate: 0 0;
+    }
+  }
+
   &-back-to-top {
     right: theme("padding.2");
     bottom: theme("padding.2");

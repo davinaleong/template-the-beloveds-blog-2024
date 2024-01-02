@@ -1,5 +1,15 @@
 /// Home
 
 .section-home {
-  //
+  &-hero {
+    --_section-height: 100vh;
+    --_section-bg-img: url(../assets/images/0027.png);
+
+    color: theme("colors.white");
+    background-color: theme("colors.tbbBlue.300");
+    background-image: var(--_section-bg-img);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }

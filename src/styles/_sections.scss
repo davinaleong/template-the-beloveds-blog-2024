@@ -3,6 +3,7 @@
 section,
 .section {
   --_section-height: auto;
+  --_section-border: thin solid theme("colors.neutral.800");
 
   min-height: var(--_section-height);
 

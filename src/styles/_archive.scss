@@ -66,5 +66,46 @@
         text-transform: uppercase;
       }
     }
+
+    &__cards-grid {
+      .card {
+        --_card-border: thin solid theme("colors.neutral.50");
+
+        border-block-start: var(--_card-border);
+        border-block-end: var(--_card-border);
+        border-inline-start: var(--_card-border);
+        border-inline-end: var(--_card-border);
+
+        &:nth-of-type(5n-1) {
+          background-color: theme("colors.tbbBlue.300");
+        }
+
+        &:nth-of-type(5n-2) {
+          background-color: theme("colors.tbbBrown.400");
+        }
+
+        &:nth-of-type(5n-3) {
+          background-color: theme("colors.tbbGreen.300");
+        }
+
+        &:nth-of-type(5n-4) {
+          background-color: theme("colors.tbbTan.400");
+        }
+
+        &:nth-of-type(5n-5) {
+          background-color: theme("colors.tbbPink.200");
+        }
+      }
+    }
+
+    .card {
+      background-color: theme("colors.tbbPink.200");
+      display: grid;
+      place-items: center;
+    }
+
+    a.card::after {
+      content: "";
+    }
   }
 }

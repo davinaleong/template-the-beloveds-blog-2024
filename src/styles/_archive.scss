@@ -84,22 +84,42 @@
 
         &:nth-of-type(5n-1) {
           background-color: theme("colors.tbbBlue.300");
+
+          &:hover {
+            background-color: theme("colors.tbbBlue.400");
+          }
         }
 
         &:nth-of-type(5n-2) {
-          background-color: theme("colors.tbbBrown.400");
+          background-color: theme("colors.tbbBrown.300");
+
+          &:hover {
+            background-color: theme("colors.tbbBrown.400");
+          }
         }
 
         &:nth-of-type(5n-3) {
           background-color: theme("colors.tbbGreen.300");
+
+          &:hover {
+            background-color: theme("colors.tbbGreen.400");
+          }
         }
 
         &:nth-of-type(5n-4) {
-          background-color: theme("colors.tbbTan.400");
+          background-color: theme("colors.tbbTan.300");
+
+          &:hover {
+            background-color: theme("colors.tbbTan.400");
+          }
         }
 
         &:nth-of-type(5n-5) {
           background-color: theme("colors.tbbPink.200");
+
+          &:hover {
+            background-color: theme("colors.tbbPink.300");
+          }
         }
       }
     }

@@ -235,8 +235,18 @@
       align-items: center;
       grid-template-columns: 2fr 5fr;
 
+      &:nth-of-type(odd) {
+        .section-home-articles__article__img {
+          border-inline-end: var(--_section-border);
+        }
+      }
+
       &:nth-of-type(even) {
         grid-template-columns: 5fr 2fr;
+
+        .section-home-articles__article__img {
+          border-inline-start: var(--_section-border);
+        }
       }
 
       &__img {

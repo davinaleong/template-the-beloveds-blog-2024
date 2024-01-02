@@ -7,6 +7,8 @@ section,
   --_section-spacer: theme("spacing.4");
 
   min-height: var(--_section-height);
+  border-block-start: var(--_section-border);
+  border-block-end: var(--_section-border);
 
   &__wrapper {
     min-height: var(--_section-height);

@@ -58,9 +58,6 @@
   &-featured {
     --_section-home-featured-decor-spacer: theme("spacing.2");
 
-    border-block-start: var(--_section-border);
-    border-block-end: var(--_section-border);
-
     &__body {
       display: grid;
       align-items: center;
@@ -102,9 +99,6 @@
   }
 
   &-scripture {
-    border-block-start: var(--_section-border);
-    border-block-end: var(--_section-border);
-
     &__main {
       background-color: theme("colors.tbbTan.200");
       border-inline-start: var(--_section-border);
@@ -122,6 +116,69 @@
         padding-block-end: var(--_section-spacer);
         padding-inline-start: var(--_section-spacer);
         padding-inline-end: var(--_section-spacer);
+      }
+    }
+  }
+
+  &-subscribe {
+    text-align: center;
+
+    &__wrapper {
+      padding-block-start: var(--_section-spacer);
+      padding-block-end: var(--_section-spacer);
+      padding-inline-start: var(--_section-spacer);
+      padding-inline-end: var(--_section-spacer);
+    }
+  }
+
+  &-articles {
+    &__heading {
+      border-block-end: var(--_section-border);
+
+      &__wrapper {
+        text-align: center;
+        letter-spacing: theme("letterSpacing.3");
+        text-transform: uppercase;
+        border-inline-start: var(--_section-border);
+        border-inline-end: var(--_section-border);
+      }
+    }
+
+    &__wrapper {
+      border-inline-start: var(--_section-border);
+      border-inline-end: var(--_section-border);
+    }
+
+    &__article {
+      border-block-start: var(--_section-border);
+      border-inline-start: var(--_section-border);
+      border-inline-end: var(--_section-border);
+
+      &__content {
+        padding-block-start: var(--_section-spacer);
+        padding-block-end: var(--_section-spacer);
+        padding-inline-start: var(--_section-spacer);
+        padding-inline-end: var(--_section-spacer);
+      }
+
+      &__img {
+        display: none;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+      }
+
+      &:last-of-type {
+        border-block-end: var(--_section-border);
+      }
+    }
+
+    &__see-more {
+      border-block-start: var(--_section-border);
+      border-block-end: var(--_section-border);
+
+      &__wrapper {
+        border-inline-start: var(--_section-border);
+        border-inline-end: var(--_section-border);
       }
     }
   }
@@ -147,6 +204,24 @@
     &__main {
       display: grid;
       grid-template-columns: 3fr 2fr;
+
+      &__img {
+        display: block;
+      }
+    }
+  }
+}
+
+@container container-q-home-articles (width > theme("screens.md")) {
+  .section-home-articles {
+    &__article {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 2fr 5fr;
+
+      &:nth-of-type(even) {
+        grid-template-columns: 5fr 2fr;
+      }
 
       &__img {
         display: block;

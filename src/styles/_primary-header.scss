@@ -48,7 +48,7 @@
   }
 }
 
-@container body (width < theme("screens.md")) {
+@media (width < theme("screens.md")) {
   .primary-header {
     &__nav {
       flex-direction: column;

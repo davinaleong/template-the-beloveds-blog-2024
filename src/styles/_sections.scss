@@ -1,0 +1,12 @@
+/// Sections
+
+section,
+.section {
+  --_section-height: auto;
+
+  min-height: var(--_section-height);
+
+  &__wrapper {
+    min-height: var(--_section-height);
+  }
+}

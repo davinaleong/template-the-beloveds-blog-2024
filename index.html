@@ -18,11 +18,11 @@
 
   <body class="container-q" id="top" style="--_container-q-name: body">
     <header class="primary-header" data-element="primary-header">
-      <div class="wrapper m-v-inline-auto p-v-block-300 p-v-inline-400">
+      <div class="wrapper mx-auto p-v-block-300 p-v-inline-400">
         <nav class="primary-header__nav">
           <div class="primary-header__nav__group">
+            <a href="./index.html">Home</a>
             <a href="./post.html">Featured Scroll</a>
-            <a href="./post.html">Latest Scroll</a>
           </div>
           <a href="./index.html" class="brand">
             <div class="brand__graphic brand__graphic-left"></div>
@@ -30,11 +30,12 @@
             <div class="brand__graphic brand__graphic-right"></div>
           </a>
           <div class="primary-header__nav__group">
+            <a href="./post.html">Latest Scroll</a>
             <a href="./archive.html">Scroll Bottles</a>
-            <a href="./contact.html">Subscribe</a>
           </div>
         </nav>
       </div>
+      <!-- ./wrapper -->
 
       <button
         class="btn text-xl"
@@ -55,164 +56,174 @@
       </button>
     </header>
 
-    <main class="primary-main">
+    <main class="primary-main primary-main-home">
       <a href="#top" class="btn btn-back-to-top">Top</a>
 
-      <!-- Hero Section -->
-      <section class="hero bg-blue-400">
-        <article class="wrapper m-v-inline-auto">
-          <div class="bg bg-hero p-v-400">
-            <div class="hero__content hero__content-landing | flow">
-              <h1 class="hero__content__heading">The Beloved's Blog</h1>
-              <p class="hero__content__subtitle">
-                My Treasury of Divine Testimonies and Sacred Revelations,
-                Unveiled Through the Scrolls of Faith.
-              </p>
+      <div class="flow">
+        <!-- Hero Section -->
+        <section class="section section-home section-home-hero">
+          <article class="wrapper section__wrapper mx-auto">
+            <div class="bg bg-hero p-v-400">
+              <div class="hero__content hero__content-landing | flow">
+                <h1 class="hero__content__heading">The Beloved's Blog</h1>
+                <p class="hero__content__subtitle">
+                  My Treasury of Divine Testimonies and Sacred Revelations,
+                  Unveiled Through the Scrolls of Faith.
+                </p>
+              </div>
             </div>
-          </div>
-        </article>
-      </section>
+            <!-- ./wrapper -->
+          </article>
+        </section>
 
-      <!-- Featured Article -->
-      <section>
-        <article class="wrapper m-v-inline-auto">
-          <img src="./src/assets/images/0007.jpg" alt="" class="of-cover" />
+        <!-- Featured Article -->
+        <section class="section section-home section-home-featured">
+          <article class="wrapper section__wrapper mx-auto">
+            <img src="./src/assets/images/0007.jpg" alt="" class="of-cover" />
+            <div class="flow">
+              <h2>Lorem, ipsum dolor.</h2>
+
+              <p>Written on <time>19 Aug 2023</time></p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium blanditiis impedit illo nisi error ut, quibusdam
+                ipsum sapiente. Veritatis, eaque!
+              </p>
+
+              <p><a href="#">Read more</a></p>
+            </div>
+            <!-- ./flow -->
+          </article>
+        </section>
+
+        <!-- Featured Scripture -->
+        <section class="section section-home section-home-scripture">
+          <article class="wrapper section__wrapper mx-auto">
+            <div class="flow">
+              <h2>Scripture for the Season</h2>
+
+              <p>
+                Whoever has the Son has life; whoever does not have God's Son
+                does not have life.
+              </p>
+
+              <p><a href="#">I John 5:12 NLT</a></p>
+            </div>
+            <!-- ./flow -->
+            <img src="./src/assets/images/0001.jpg" alt="" class="of-cover" />
+          </article>
+        </section>
+
+        <!-- Subscribe CTA -->
+        <section class="section section-home section-home-subscribe">
+          <article class="wrapper section__wrapper mx-auto flow">
+            <h2>Subscribe to receive new scrolls!</h2>
+            <p><a href="#">Subscribe</a></p>
+          </article>
+        </section>
+
+        <!-- 10 Latest Articles -->
+        <section class="section section-home section-home-scrolls">
+          <h2>
+            <div class="wrapper section__wrapper mx-auto">Latest Scrolls</div>
+          </h2>
+
+          <div class="wrapper section__wrapper mx-auto">
+            <article>
+              <img
+                src="./src/assets/images/0003.jpg"
+                alt=""
+                class="ar-9-16 of-cover"
+              />
+              <div>
+                <h3>Lorem, ipsum dolor.</h3>
+
+                <p>Written on <time>19 Aug 2023</time></p>
+
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam tempore debitis architecto laboriosam? Deserunt non
+                  fugit, recusandae alias nobis cum?
+                </p>
+
+                <p><a href="#">Read more</a></p>
+              </div>
+              <!-- ./wrapper -->
+            </article>
+            <article>
+              <div class="flow">
+                <h3>Lorem, ipsum dolor.</h3>
+
+                <p>Written on <time>19 Aug 2023</time></p>
+
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam tempore debitis architecto laboriosam? Deserunt non
+                  fugit, recusandae alias nobis cum?
+                </p>
+
+                <p><a href="#">Read more</a></p>
+              </div>
+              <!-- ./flow -->
+              <img
+                src="./src/assets/images/0006.jpg"
+                alt=""
+                class="ar-9-16 of-cover"
+              />
+            </article>
+            <article>
+              <img
+                src="./src/assets/images/0004.jpg"
+                alt=""
+                class="ar-9-16 of-cover"
+              />
+              <div class="flow">
+                <h3>Lorem, ipsum dolor.</h3>
+
+                <p>Written on <time>19 Aug 2023</time></p>
+
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam tempore debitis architecto laboriosam? Deserunt non
+                  fugit, recusandae alias nobis cum?
+                </p>
+
+                <p><a href="#">Read more</a></p>
+              </div>
+              <!-- ./flow -->
+            </article>
+            <article>
+              <div class="flow">
+                <h3>Lorem, ipsum dolor.</h3>
+
+                <p>Written on <time>19 Aug 2023</time></p>
+
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam tempore debitis architecto laboriosam? Deserunt non
+                  fugit, recusandae alias nobis cum?
+                </p>
+
+                <p><a href="#">Read more</a></p>
+              </div>
+              <!-- ./flow -->
+              <img
+                src="./src/assets/images/0018.jpg"
+                alt=""
+                class="ar-9-16 of-cover"
+              />
+            </article>
+          </div>
+
           <div>
-            <h2>Lorem, ipsum dolor.</h2>
-
-            <p>Written on <time>19 Aug 2023</time></p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium blanditiis impedit illo nisi error ut, quibusdam ipsum
-              sapiente. Veritatis, eaque!
+            <p class="wrapper mx-auto">
+              <a href="#">See more scrolls</a>
             </p>
-
-            <p><a href="#">Read more</a></p>
+            <!-- ./wrapper -->
           </div>
-        </article>
-      </section>
-
-      <!-- Featured Scripture -->
-      <section>
-        <article class="wrapper m-v-inline-auto">
-          <div>
-            <h2>Scripture for the Season</h2>
-
-            <p>
-              Whoever has the Son has life; whoever does not have God's Son does
-              not have life.
-            </p>
-
-            <p><a href="#">I John 5:12 NLT</a></p>
-          </div>
-          <img src="./src/assets/images/0001.jpg" alt="" class="of-cover" />
-        </article>
-      </section>
-
-      <!-- Subscribe CTA -->
-      <section>
-        <article class="wrapper m-v-inline-auto">
-          <h2>Subscribe to receive new scrolls!</h2>
-          <p><a href="#">Subscribe</a></p>
-        </article>
-      </section>
-
-      <!-- 10 Latest Articles -->
-      <section>
-        <h2>
-          <div class="wrapper m-v-inline-auto">Latest Scrolls</div>
-        </h2>
-
-        <div class="wrapper m-v-inline-auto">
-          <article>
-            <img
-              src="./src/assets/images/0003.jpg"
-              alt=""
-              class="ar-9-16 of-cover"
-            />
-            <div>
-              <h3>Lorem, ipsum dolor.</h3>
-
-              <p>Written on <time>19 Aug 2023</time></p>
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                tempore debitis architecto laboriosam? Deserunt non fugit,
-                recusandae alias nobis cum?
-              </p>
-
-              <p><a href="#">Read more</a></p>
-            </div>
-          </article>
-          <article>
-            <div>
-              <h3>Lorem, ipsum dolor.</h3>
-
-              <p>Written on <time>19 Aug 2023</time></p>
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                tempore debitis architecto laboriosam? Deserunt non fugit,
-                recusandae alias nobis cum?
-              </p>
-
-              <p><a href="#">Read more</a></p>
-            </div>
-            <img
-              src="./src/assets/images/0006.jpg"
-              alt=""
-              class="ar-9-16 of-cover"
-            />
-          </article>
-          <article>
-            <img
-              src="./src/assets/images/0004.jpg"
-              alt=""
-              class="ar-9-16 of-cover"
-            />
-            <div>
-              <h3>Lorem, ipsum dolor.</h3>
-
-              <p>Written on <time>19 Aug 2023</time></p>
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                tempore debitis architecto laboriosam? Deserunt non fugit,
-                recusandae alias nobis cum?
-              </p>
-
-              <p><a href="#">Read more</a></p>
-            </div>
-          </article>
-          <article>
-            <div>
-              <h3>Lorem, ipsum dolor.</h3>
-
-              <p>Written on <time>19 Aug 2023</time></p>
-
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                tempore debitis architecto laboriosam? Deserunt non fugit,
-                recusandae alias nobis cum?
-              </p>
-
-              <p><a href="#">Read more</a></p>
-            </div>
-            <img
-              src="./src/assets/images/0018.jpg"
-              alt=""
-              class="ar-9-16 of-cover"
-            />
-          </article>
-        </div>
-
-        <div>
-          <p class="wrapper m-v-inline-auto">
-            <a href="#">See more scrolls</a>
-          </p>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
     <footer>

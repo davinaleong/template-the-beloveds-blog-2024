@@ -49,4 +49,29 @@
       }
     }
   }
+
+  &-form {
+    &__wrapper {
+      border-inline-start: var(--_section-border);
+      border-inline-end: var(--_section-border);
+    }
+  }
+}
+
+@container container-q-contact-form (width > theme("screens.md")) {
+  .section-contact {
+    .form {
+      &__group {
+        grid-template-columns: 1fr 4fr;
+        gap: theme("spacing.0");
+      }
+
+      &__label {
+        background-color: theme("colors.tbbTan.100");
+        border-block-start: var(--_form-border);
+        border-block-end: var(--_form-border);
+        border-inline-start: var(--_form-border);
+      }
+    }
+  }
 }

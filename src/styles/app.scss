@@ -5,13 +5,13 @@
 
 @import "./fonts";
 @import "./custom";
-@import "./project";
 @import "./content";
 @import "./tables";
 @import "./buttons";
 @import "./cards";
 @import "./paginations";
 @import "./sections";
+@import "./forms";
 @import "./brand";
 @import "./primary-header";
 @import "./primary-footer";
@@ -20,5 +20,6 @@
 @import "./post";
 @import "./archive";
 @import "./archive-list";
+@import "./contact";
 
 @tailwind utilities;

@@ -76,6 +76,42 @@
     --_btn-hover-clr: theme("colors.neutral.800");
     --_btn-hover-bg-clr: theme("colors.tbbTan.200");
     --_btn-hover-border-clr: theme("colors.neutral.800");
+
+    &Cream {
+      --_btn-bg-clr: theme("colors.tbbCream.300");
+
+      --_btn-hover-bg-clr: theme("colors.tbbCream.200");
+    }
+
+    &Tan {
+      --_btn-bg-clr: theme("colors.tbbTan.300");
+
+      --_btn-hover-bg-clr: theme("colors.tbbTan.200");
+    }
+
+    &Green {
+      --_btn-bg-clr: theme("colors.tbbGreen.300");
+
+      --_btn-hover-bg-clr: theme("colors.tbbGreen.200");
+    }
+
+    &Brown {
+      --_btn-bg-clr: theme("colors.tbbBrown.400");
+
+      --_btn-hover-bg-clr: theme("colors.tbbBrown.300");
+    }
+
+    &Pink {
+      --_btn-bg-clr: theme("colors.tbbPink.200");
+
+      --_btn-hover-bg-clr: theme("colors.tbbPink.100");
+    }
+
+    &Blue {
+      --_btn-bg-clr: theme("colors.tbbBlue.300");
+
+      --_btn-hover-bg-clr: theme("colors.tbbBlue.200");
+    }
   }
 
   &-skip-navigation {

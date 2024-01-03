@@ -10,7 +10,7 @@
 
 body {
   color: theme("colors.neutral.950");
-  background-color: theme("colors.neutral.50");
+  background-color: theme("colors.tbbCream.50");
   font-family: theme("fontFamily.sans");
   font-weight: theme("fontWeight.normal");
   font-size: theme("fontSize.base");
@@ -19,10 +19,10 @@ body {
 }
 
 a {
-  --_a-clr: theme("colors.blue.500");
-  --_a-td: none;
+  --_a-clr: theme("colors.neutral.700");
+  --_a-td: underline;
 
-  --_a-hover-clr: theme("colors.blue.500");
+  --_a-hover-clr: theme("colors.neutral.500");
   --_a-hover-td: underline;
 
   color: var(--_a-clr);
@@ -32,6 +32,11 @@ a {
     color: var(--_a-hover-clr);
     text-decoration: var(--_a-hover-td);
   }
+}
+
+time {
+  color: theme("colors.neutral.500");
+  font-weight: theme("fontWeight.semibold");
 }
 
 .flow {

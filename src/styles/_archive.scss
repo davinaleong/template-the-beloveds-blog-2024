@@ -6,7 +6,7 @@
     --_section-bg-img: url(../assets/images/0029.png);
 
     color: theme("colors.white");
-    background-color: theme("colors.tbbBlue.300");
+    background-color: theme("colors.tbbBrown.400");
 
     .section__wrapper {
       --_decoration-size: clamp(3em, calc(3.24em + 0.87em), 5em);
@@ -57,25 +57,26 @@
 
   &-content {
     &__heading {
-      background-color: theme("colors.tbbTan.200");
+      background-color: theme("colors.tbbTan.100");
       border-block-end: var(--_section-border);
 
       &__wrapper {
         text-align: center;
         letter-spacing: theme("letterSpacing.2");
         text-transform: uppercase;
-        border-inline-start: var(--_section-border);
-        border-inline-end: var(--_section-border);
       }
+    }
+
+    &__wrapper {
+      border-inline-start: var(--_section-border);
+      border-inline-end: var(--_section-border);
     }
 
     &__cards-grid {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: theme("spacing.1");
 
       .card {
-        --_card-border: thin solid theme("colors.neutral.50");
-        --_card-width: 100%;
-
         width: min(100%, var(--_card-width));
         border-block-start: var(--_card-border);
         border-block-end: var(--_card-border);
@@ -140,7 +141,7 @@
   .section-archive {
     &-content {
       &__cards-grid {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
       }
     }
   }

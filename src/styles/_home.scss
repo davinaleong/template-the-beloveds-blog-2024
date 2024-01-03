@@ -99,12 +99,9 @@
   }
 
   &-scripture {
-    background-color: theme("colors.tbbTan.200");
+    background-color: theme("colors.tbbCream.100");
 
     &__main {
-      border-inline-start: var(--_section-border);
-      border-inline-end: var(--_section-border);
-
       &__img {
         display: none;
         aspect-ratio: 4 / 3;
@@ -134,14 +131,13 @@
 
   &-articles {
     &__heading {
+      background-color: theme("colors.tbbTan.100");
       border-block-end: var(--_section-border);
 
       &__wrapper {
         text-align: center;
         letter-spacing: theme("letterSpacing.2");
         text-transform: uppercase;
-        border-inline-start: var(--_section-border);
-        border-inline-end: var(--_section-border);
       }
     }
 

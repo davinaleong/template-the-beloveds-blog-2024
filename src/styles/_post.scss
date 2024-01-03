@@ -6,7 +6,7 @@
     --_section-bg-img: url(../assets/images/0028.png);
 
     color: theme("colors.white");
-    background-color: theme("colors.tbbBlue.300");
+    background-color: theme("colors.tbbGreen.300");
 
     .section__wrapper {
       --_decoration-size: clamp(3em, calc(3.24em + 0.87em), 5em);
@@ -58,6 +58,13 @@
   &-hightlight {
     background-color: theme("colors.tbbTan.200");
 
+    &__wrapper {
+      border-inline-start: var(--_section-border);
+      border-inline-end: var(--_section-border);
+    }
+  }
+
+  &-content {
     &__wrapper {
       border-inline-start: var(--_section-border);
       border-inline-end: var(--_section-border);

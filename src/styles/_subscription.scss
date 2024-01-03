@@ -55,7 +55,7 @@
     }
   }
 
-  &-subscribe {
+  &-form {
     &__heading {
       background-color: theme("colors.tbbTan.100");
       border-block-end: var(--_section-border);
@@ -70,6 +70,47 @@
     &__wrapper {
       border-inline-start: var(--_section-border);
       border-inline-end: var(--_section-border);
+    }
+
+    .form {
+      display: flex;
+
+      &__group {
+        width: 100%;
+        display: flex;
+        gap: theme("spacing.0");
+
+        &-hidden {
+          display: none;
+        }
+      }
+
+      &__label {
+        display: none;
+        background-color: theme("colors.tbbTan.100");
+        border-block-start: var(--_form-border);
+        border-block-end: var(--_form-border);
+        border-inline-start: var(--_form-border);
+        border-inline-end: var(--_form-border);
+        padding-block-start: var(--_form-spacer);
+        padding-block-end: var(--_form-spacer);
+        padding-inline-start: var(--_form-spacer);
+        padding-inline-end: var(--_form-spacer);
+      }
+
+      &__field {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@container container-q-subscription-form (width > theme("screens.md")) {
+  .section-subscription {
+    .form {
+      &__label {
+        display: block;
+      }
     }
   }
 }

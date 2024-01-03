@@ -124,11 +124,7 @@ time {
     --_container-q-name: container-q-contact-form;
   }
 
-  &-subscription-subscribe {
-    --_container-q-name: container-q-subscription-subscribe;
-  }
-
-  &-subscription-unsubscribe {
-    --_container-q-name: container-q-subscription-unsubscribe;
+  &-subscription-form {
+    --_container-q-name: container-q-subscription-form;
   }
 }

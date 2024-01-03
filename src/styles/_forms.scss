@@ -19,6 +19,10 @@
     padding-block-end: var(--_form-spacer);
     padding-inline-start: var(--_form-spacer);
     padding-inline-end: var(--_form-spacer);
+
+    &-hidden {
+      display: none;
+    }
   }
 
   &__field {
@@ -31,6 +35,10 @@
     padding-block-end: var(--_form-spacer);
     padding-inline-start: var(--_form-spacer);
     padding-inline-end: var(--_form-spacer);
+
+    &-hidden {
+      display: none;
+    }
   }
 
   &__buttons {

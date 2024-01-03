@@ -11,11 +11,6 @@
 body {
   color: theme("colors.neutral.950");
   background-color: theme("colors.neutral.50");
-  background-image: linear-gradient(
-    to bottom,
-    theme("colors.neutral.50"),
-    theme("colors.neutral.200")
-  );
   font-family: theme("fontFamily.sans");
   font-weight: theme("fontWeight.normal");
   font-size: theme("fontSize.base");
@@ -114,5 +109,9 @@ a {
 
   &-archive-content {
     --_container-q-name: container-q-archive-content;
+  }
+
+  &-archive-list-articles {
+    --_container-q-name: container-q-archive-list-articles;
   }
 }
